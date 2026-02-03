@@ -18,20 +18,44 @@
         "subtitle": "Seçkin Konaklama",
         "viewAll": "Tümünü Gör",
         "detailsButton": "Detaylı İncele",
+        "bookNow": "Rezervasyon Yap",
+        "backToRooms": "Odalara Dön",
+        "roomDetails": "Oda Detayları",
+        "roomSize": "Oda Büyüklüğü",
+        "capacity": "Kapasite",
+        "adults": "Yetişkin",
+        "children": "Çocuk",
+        "bedType": "Yatak Tipi",
+        "viewType": "Manzara",
+        "amenities": "Olanaklar",
+        "moreImages": "Görsel",
+        "features": {
+            "wifi": "Ücretsiz Wi-Fi",
+            "minibar": "Minibar",
+            "safe": "Kasa",
+            "airConditioning": "Klima",
+            "tv": "LCD TV",
+            "hairdryer": "Saç Kurutma Makinesi",
+            "bathrobe": "Bornoz & Terlik",
+            "slippers": "Terlik"
+        },
         "deluxeTwinGarden": {
             "name": "Deluxe Twin Garden",
             "category": "Bahçe Manzaralı",
-            "description": "Çift bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Modern mimarinin doğayla buluştuğu noktada konforun keyfini sürün."
+            "description": "Çift bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Modern mimarinin doğayla buluştuğu noktada konforun keyfini sürün.",
+            "longDescription": "Deluxe Twin Garden odalarımız, konfor ve doğanın mükemmel bir karışımını sunuyor. 35 metrekare düşünülmüş tasarım alanı ile bu odalar, iki rahat tek kişilik yatak, modern bir banyo ve yemyeşil bahçelerimize bakan özel bir balkona sahiptir. Her detay, konaklamanızın hem rahatlatıcı hem de unutulmaz olması için özenle düşünülmüştür."
         },
         "deluxeFrenchGarden": {
             "name": "Deluxe French Garden",
             "category": "Zerafet & Doğa",
-            "description": "Bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. İnce detaylarla döşenmiş iç mekanımızda huzuru keşfedeceksiniz."
+            "description": "Bahçe manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. İnce detaylarla döşenmiş iç mekanımızda huzuru keşfedeceksiniz.",
+            "longDescription": "Deluxe French Garden odası, zarafeti doğal güzellikle birleştiriyor. Lüks bir Fransız yatağı, 35 metrekare rafine yaşam alanı ve panoramik bahçe manzarası ile bu oda, romantik bir kaçamak arayan çiftler için mükemmeldir. İnce detaylarla zenginleştirilmiş sofistike iç tasarım, rafine konfor atmosferi yaratıyor."
         },
         "deluxeFrenchCity": {
             "name": "Deluxe French City",
             "category": "Şehir Panoraması",
-            "description": "Şehir manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Işıltılı şehir manzarasını konforlu süitinizden izleyin."
+            "description": "Şehir manzaralı odamızda gerçek bir rahatlatma deneyimi yaşayın. Işıltılı şehir manzarasını konforlu süitinizden izleyin.",
+            "longDescription": "Deluxe French City odalarımız, şehir manzarasının muhteşem görüntülerini sunuyor. 35 metrekare modern alan, yumuşak bir Fransız yatağı ve tavandan tabana cam pencereler ile canlı şehir atmosferinin keyfini zarif odanızın konforundan çıkarabilirsiniz. Kentsel nabza bağlı kalmak isteyen misafirler için mükemmeldir."
         }
     },
     "sustainability": {
@@ -69,6 +93,7 @@
         }
     },
     "common": {
-        "squareMeters": "m²"
+        "squareMeters": "m²",
+        "images": "Görsel"
     }
 }

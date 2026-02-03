@@ -18,20 +18,44 @@
         "subtitle": "Premium Accommodation",
         "viewAll": "View All",
         "detailsButton": "View Details",
+        "bookNow": "Book Now",
+        "backToRooms": "Back to Rooms",
+        "roomDetails": "Room Details",
+        "roomSize": "Room Size",
+        "capacity": "Capacity",
+        "adults": "Adults",
+        "children": "Children",
+        "bedType": "Bed Type",
+        "viewType": "View",
+        "amenities": "Amenities",
+        "moreImages": "Images",
+        "features": {
+            "wifi": "Free Wi-Fi",
+            "minibar": "Minibar",
+            "safe": "Safe",
+            "airConditioning": "Air Conditioning",
+            "tv": "LCD TV",
+            "hairdryer": "Hair Dryer",
+            "bathrobe": "Bathrobe & Slippers",
+            "slippers": "Slippers"
+        },
         "deluxeTwinGarden": {
             "name": "Deluxe Twin Garden",
             "category": "Garden View",
-            "description": "Experience true relaxation in our twin garden view room. Enjoy the comfort where modern architecture meets nature."
+            "description": "Experience true relaxation in our twin garden view room. Enjoy the comfort where modern architecture meets nature.",
+            "longDescription": "Our Deluxe Twin Garden rooms offer a perfect blend of comfort and nature. With 35 square meters of thoughtfully designed space, these rooms feature two comfortable twin beds, a modern bathroom, and a private balcony overlooking our lush gardens. Every detail has been carefully considered to ensure your stay is both relaxing and memorable."
         },
         "deluxeFrenchGarden": {
             "name": "Deluxe French Garden",
             "category": "Elegance & Nature",
-            "description": "Experience true relaxation in our garden view room. Discover serenity in our interior adorned with fine details."
+            "description": "Experience true relaxation in our garden view room. Discover serenity in our interior adorned with fine details.",
+            "longDescription": "The Deluxe French Garden room combines elegance with natural beauty. Featuring a luxurious French bed, 35 square meters of refined living space, and panoramic garden views, this room is perfect for couples seeking a romantic retreat. The sophisticated interior design with fine details creates an atmosphere of refined comfort."
         },
         "deluxeFrenchCity": {
             "name": "Deluxe French City",
             "category": "City Panorama",
-            "description": "Experience true relaxation in our city view room. Watch the sparkling city view from your comfortable suite."
+            "description": "Experience true relaxation in our city view room. Watch the sparkling city view from your comfortable suite.",
+            "longDescription": "Our Deluxe French City rooms offer stunning views of the city skyline. With 35 square meters of contemporary space, a plush French bed, and floor-to-ceiling windows, you can enjoy the vibrant city atmosphere from the comfort of your elegant room. Perfect for guests who want to stay connected to the urban pulse."
         }
     },
     "sustainability": {
@@ -69,6 +93,7 @@
         }
     },
     "common": {
-        "squareMeters": "m²"
+        "squareMeters": "m²",
+        "images": "Images"
     }
 }
