@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export function Hero() {
   const t = useTranslations('hero');
@@ -20,9 +21,11 @@ export function Hero() {
         <h2 className="text-white text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
           {t('title')}
         </h2>
-        <Button className="bg-white text-[#015C54] hover:bg-white/90 px-8 py-3 rounded-sm text-xs font-bold uppercase tracking-widest">
-          {t('cta')}
-        </Button>
+        <Link href="/booking">
+          <Button className="bg-white text-[#015C54] hover:bg-white/90 px-8 py-3 rounded-sm text-xs font-bold uppercase tracking-widest">
+            {t('cta')}
+          </Button>
+        </Link>
       </div>
     </header>
   );

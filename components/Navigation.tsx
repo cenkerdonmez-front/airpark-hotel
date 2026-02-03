@@ -34,33 +34,35 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             </Link>
             {/* Desktop Menu */}
             <div className="hidden lg:flex items-center space-x-6 text-[11px] font-bold uppercase tracking-wider text-brand-primary/80">
-              <Link className="hover:text-brand-primary transition-colors" href="#rooms">
+              <Link className="hover:text-brand-primary transition-colors" href="/rooms">
                 {t('nav.rooms')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="#">
+              <Link className="hover:text-brand-primary transition-colors" href="/restaurant">
                 {t('nav.restaurant')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="#">
+              <Link className="hover:text-brand-primary transition-colors" href="/spa">
                 {t('nav.spa')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="#">
+              <Link className="hover:text-brand-primary transition-colors" href="/wedding">
                 {t('nav.wedding')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="#">
+              <Link className="hover:text-brand-primary transition-colors" href="/meeting">
                 {t('nav.meeting')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="#">
+              <Link className="hover:text-brand-primary transition-colors" href="/sustainability">
                 {t('nav.sustainability')}
               </Link>
             </div>
           </div>
           <div className="flex items-center space-x-4">
             <LocaleSwitcher />
-            <Button 
-              className="hidden lg:inline-flex bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-2 rounded-sm text-[11px] font-bold uppercase tracking-wider"
-            >
-              {t('nav.reservation')}
-            </Button>
+            <Link href="/booking">
+              <Button 
+                className="hidden lg:inline-flex bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-2 rounded-sm text-[11px] font-bold uppercase tracking-wider"
+              >
+                {t('nav.reservation')}
+              </Button>
+            </Link>
             {/* Hamburger Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -128,42 +130,42 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
           <div className="flex flex-col px-6 py-8 space-y-6 text-sm font-bold uppercase tracking-wider text-brand-primary/80">
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#rooms"
+              href="/rooms"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.rooms')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#"
+              href="/restaurant"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.restaurant')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#"
+              href="/spa"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.spa')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#"
+              href="/wedding"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.wedding')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#"
+              href="/meeting"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.meeting')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
-              href="#"
+              href="/sustainability"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.sustainability')}
@@ -172,12 +174,14 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
 
           {/* Mobile Menu Footer with Reservation Button */}
           <div className="mt-auto px-6 py-6 border-t border-brand-primary/10">
-            <Button 
-              className="w-full bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-3 rounded-sm text-[11px] font-bold uppercase tracking-wider"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {t('nav.reservation')}
-            </Button>
+            <Link href="/booking" className="block">
+              <Button 
+                className="w-full bg-brand-primary hover:bg-brand-primary/90 text-white px-5 py-3 rounded-sm text-[11px] font-bold uppercase tracking-wider"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('nav.reservation')}
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

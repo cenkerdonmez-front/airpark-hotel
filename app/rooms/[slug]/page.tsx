@@ -131,9 +131,11 @@ export default function RoomPage({ params }: RoomPageProps) {
 
               {/* Book Now Button */}
               <div className="pt-8">
-                <Button className="bg-brand-primary text-white w-full sm:w-auto px-12 py-4 rounded-full text-lg font-semibold shadow-xl shadow-brand-primary/30 hover:shadow-brand-primary/50 transition-all hover:-translate-y-1 active:scale-95">
-                  {t('bookNow')}
-                </Button>
+                <Link href="/booking">
+                  <Button className="bg-brand-primary text-white w-full sm:w-auto px-12 py-4 rounded-full text-lg font-semibold shadow-xl shadow-brand-primary/30 hover:shadow-brand-primary/50 transition-all hover:-translate-y-1 active:scale-95">
+                    {t('bookNow')}
+                  </Button>
+                </Link>
               </div>
             </div>
 

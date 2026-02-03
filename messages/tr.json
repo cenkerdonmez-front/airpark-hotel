@@ -89,11 +89,101 @@
             "cookies": "Çerezler",
             "sales": "Mesafeli Satış",
             "disclosure": "Aydınlatma Metni",
-            "copyright": "© 2024 AIRPARKHOTEL. TÜM HAKLARI SAKLIDIR."
+            "copyright": "© 2026 AIRPARKHOTEL. TÜM HAKLARI SAKLIDIR."
         }
     },
     "common": {
         "squareMeters": "m²",
         "images": "Görsel"
+    },
+    "restaurant": {
+        "title": "Restaurant & Bar",
+        "subtitle": "Lezzet Mükemmelliği",
+        "description": "Restoranımızda eşsiz bir lezzet yolculuğu deneyimleyin. Şeflerimiz, taze, yerel malzemelerle uluslararası tatları birleştirerek özel yemekler hazırlıyor.",
+        "openingHours": "Açılış Saatleri",
+        "breakfast": "Kahvaltı: 07:00 - 10:30",
+        "lunch": "Öğle Yemeği: 12:00 - 15:00",
+        "dinner": "Akşam Yemeği: 18:00 - 22:30",
+        "bar": "Bar: 11:00 - 01:00",
+        "menuTitle": "Menümüz",
+        "menuDescription": "Geleneksel Türk mutfağından uluslararası favorilere kadar çeşitli menümüz her damak zevkine hitap ediyor.",
+        "reservationCta": "Rezervasyon Yap"
+    },
+    "spa": {
+        "title": "Spa & Sağlık",
+        "subtitle": "Rahatlama & Yenilenme",
+        "description": "Lüks spa ve sağlık merkezimize kaçın. Bedeninizi rahatlatmak ve zihninizi yenilemek için tasarlanmış çeşitli tedavilerin keyfini çıkarın.",
+        "services": "Hizmetlerimiz",
+        "massage": "Masaj Terapileri",
+        "facial": "Cilt Bakımları",
+        "body": "Vücut Bakımları",
+        "sauna": "Sauna & Buhar Odası",
+        "pool": "Kapalı Havuz",
+        "fitness": "Fitness Merkezi",
+        "openingHours": "Açılış Saatleri",
+        "hours": "Her Gün: 08:00 - 22:00",
+        "bookingCta": "Randevu Al"
+    },
+    "wedding": {
+        "title": "Düğün",
+        "subtitle": "Hayalinizdeki Düğün",
+        "description": "AirPark Hotel'de özel gününüzü unutulmaz kılın. Zarif mekanlarımız ve özel ekibimiz düğününüzün hayal ettiğiniz her şey ve daha fazlası olmasını sağlayacak.",
+        "venues": "Düğün Mekanları",
+        "venueDescription": "Güzel iç ve dış mekanlarımızdan birini seçin, her biri kutlamanız için benzersiz bir atmosfer sunuyor.",
+        "services": "Düğün Hizmetleri",
+        "planning": "Profesyonel Düğün Planlama",
+        "catering": "Özelleştirilmiş Yemek Menüleri",
+        "decoration": "Zarif Dekorasyon",
+        "accommodation": "Misafir Konaklaması",
+        "photography": "Fotoğraf Hizmetleri",
+        "contactCta": "Düğün Ekibimizle İletişime Geçin"
+    },
+    "meeting": {
+        "title": "Toplantı & Etkinlik",
+        "subtitle": "Profesyonel Etkinlik Alanları",
+        "description": "Bir sonraki iş toplantınızı, konferansınızı veya kurumsal etkinliğinizi AirPark Hotel'de düzenleyin. Modern olanaklarımız ve profesyonel hizmetlerimiz başarılı bir etkinlik sağlar.",
+        "facilities": "Olanaklarımız",
+        "conferenceRooms": "Konferans Salonları",
+        "boardRoom": "Yönetici Toplantı Salonu",
+        "ballroom": "Büyük Balo Salonu",
+        "equipment": "Modern AV Ekipmanları",
+        "capacity": "Kapasite",
+        "capacityInfo": "10 ila 500 misafir",
+        "services": "Etkinlik Hizmetleri",
+        "catering": "Profesyonel Yemek Servisi",
+        "setup": "Esnek Salon Düzenlemesi",
+        "support": "Teknik Destek",
+        "wifi": "Yüksek Hızlı WiFi",
+        "inquiryCta": "Teklif İsteyin"
+    },
+    "booking": {
+        "title": "Rezervasyon Yap",
+        "subtitle": "Konaklamanızı Rezerve Edin",
+        "description": "Odanızı rezerve etmek için aşağıdaki formu doldurun. Ekibimiz rezervasyonunuzu onaylamak için kısa süre içinde sizinle iletişime geçecektir.",
+        "form": {
+            "firstName": "Ad",
+            "lastName": "Soyad",
+            "email": "E-posta Adresi",
+            "phone": "Telefon Numarası",
+            "checkIn": "Giriş Tarihi",
+            "checkOut": "Çıkış Tarihi",
+            "roomType": "Oda Tipi",
+            "selectRoom": "Oda seçin",
+            "adults": "Yetişkin Sayısı",
+            "children": "Çocuk Sayısı",
+            "specialRequests": "Özel İstekler",
+            "specialRequestsPlaceholder": "Özel gereksinimler veya istekler...",
+            "submit": "Rezervasyon Gönder",
+            "required": "Zorunlu alan"
+        },
+        "contact": {
+            "title": "İletişim Bilgileri",
+            "description": "Ayrıca aşağıdaki kanallardan bize doğrudan ulaşabilirsiniz:",
+            "phone": "Telefon",
+            "email": "E-posta",
+            "address": "Adres",
+            "hours": "Resepsiyon Saatleri",
+            "hoursInfo": "7/24 Hizmetinizdeyiz"
+        }
     }
 }

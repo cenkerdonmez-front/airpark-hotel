@@ -89,11 +89,101 @@
             "cookies": "Cookies",
             "sales": "Distance Sales",
             "disclosure": "Disclosure Text",
-            "copyright": "© 2024 AIRPARKHOTEL. ALL RIGHTS RESERVED."
+            "copyright": "© 2026 AIRPARKHOTEL. ALL RIGHTS RESERVED."
         }
     },
     "common": {
         "squareMeters": "m²",
         "images": "Images"
+    },
+    "restaurant": {
+        "title": "Restaurant & Bar",
+        "subtitle": "Culinary Excellence",
+        "description": "Experience a unique culinary journey at our restaurant. Our chefs prepare exquisite dishes using fresh, local ingredients combined with international flavors.",
+        "openingHours": "Opening Hours",
+        "breakfast": "Breakfast: 07:00 - 10:30",
+        "lunch": "Lunch: 12:00 - 15:00",
+        "dinner": "Dinner: 18:00 - 22:30",
+        "bar": "Bar: 11:00 - 01:00",
+        "menuTitle": "Our Menu",
+        "menuDescription": "From traditional Turkish cuisine to international favorites, our diverse menu caters to all tastes.",
+        "reservationCta": "Make a Reservation"
+    },
+    "spa": {
+        "title": "Spa & Wellness",
+        "subtitle": "Relaxation & Rejuvenation",
+        "description": "Escape to our luxurious spa and wellness center. Indulge in a variety of treatments designed to relax your body and rejuvenate your mind.",
+        "services": "Our Services",
+        "massage": "Massage Therapies",
+        "facial": "Facial Treatments",
+        "body": "Body Treatments",
+        "sauna": "Sauna & Steam Room",
+        "pool": "Indoor Pool",
+        "fitness": "Fitness Center",
+        "openingHours": "Opening Hours",
+        "hours": "Daily: 08:00 - 22:00",
+        "bookingCta": "Book an Appointment"
+    },
+    "wedding": {
+        "title": "Wedding",
+        "subtitle": "Your Dream Wedding",
+        "description": "Make your special day unforgettable at AirPark Hotel. Our elegant venues and dedicated team will ensure your wedding is everything you've dreamed of and more.",
+        "venues": "Wedding Venues",
+        "venueDescription": "Choose from our beautiful indoor and outdoor venues, each offering a unique ambiance for your celebration.",
+        "services": "Wedding Services",
+        "planning": "Professional Wedding Planning",
+        "catering": "Customized Catering Menus",
+        "decoration": "Elegant Decoration",
+        "accommodation": "Guest Accommodation",
+        "photography": "Photography Services",
+        "contactCta": "Contact Our Wedding Team"
+    },
+    "meeting": {
+        "title": "Meeting & Events",
+        "subtitle": "Professional Event Spaces",
+        "description": "Host your next business meeting, conference, or corporate event at AirPark Hotel. Our modern facilities and professional services ensure a successful event.",
+        "facilities": "Our Facilities",
+        "conferenceRooms": "Conference Rooms",
+        "boardRoom": "Executive Board Room",
+        "ballroom": "Grand Ballroom",
+        "equipment": "Modern AV Equipment",
+        "capacity": "Capacity",
+        "capacityInfo": "From 10 to 500 guests",
+        "services": "Event Services",
+        "catering": "Professional Catering",
+        "setup": "Flexible Room Setup",
+        "support": "Technical Support",
+        "wifi": "High-Speed WiFi",
+        "inquiryCta": "Request a Proposal"
+    },
+    "booking": {
+        "title": "Make a Reservation",
+        "subtitle": "Book Your Stay",
+        "description": "Complete the form below to reserve your room. Our team will contact you shortly to confirm your reservation.",
+        "form": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "checkIn": "Check-in Date",
+            "checkOut": "Check-out Date",
+            "roomType": "Room Type",
+            "selectRoom": "Select a room",
+            "adults": "Number of Adults",
+            "children": "Number of Children",
+            "specialRequests": "Special Requests",
+            "specialRequestsPlaceholder": "Any special requirements or requests...",
+            "submit": "Submit Reservation",
+            "required": "Required field"
+        },
+        "contact": {
+            "title": "Contact Information",
+            "description": "You can also reach us directly through the following channels:",
+            "phone": "Phone",
+            "email": "Email",
+            "address": "Address",
+            "hours": "Reception Hours",
+            "hoursInfo": "24/7 Available"
+        }
     }
 }
