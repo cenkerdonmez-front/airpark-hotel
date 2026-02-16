@@ -19,12 +19,13 @@ export function RoomCard({ slug, name, description, image, size }: RoomCardProps
   return (
     <div className="bg-white border border-brand-primary/5 overflow-hidden flex flex-col">
       <div className="relative aspect-[4/3] overflow-hidden">
+      <Link href={`/rooms/${slug}`}>
         <Image
           alt={name}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           src={image}
           fill
-        />
+        /></Link>
         <div className="absolute top-3 right-3 bg-brand-primary/90 text-white px-2 py-1 text-[10px] font-bold">
           {size} {t('common.squareMeters')}
         </div>

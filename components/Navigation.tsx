@@ -38,7 +38,7 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
                 {t('nav.rooms')}
               </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/meeting">
-                {t('nav.meeting')}
+                {t('nav.events')}
               </Link>
               <Link className="hover:text-brand-primary transition-colors" href="/gallery">
                 {t('nav.gallery')}
@@ -137,7 +137,7 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               href="/meeting"
               onClick={() => setIsMenuOpen(false)}
             >
-              {t('nav.meeting')}
+              {t('nav.events')}
             </Link>
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 

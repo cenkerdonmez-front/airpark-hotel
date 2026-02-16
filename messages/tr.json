@@ -4,7 +4,7 @@
         "rooms": "Odalar",
         "gallery": "Galeri",
         "spa": "Spa & Sağlık",
-        "meeting": "Toplantı & Etkinlik",
+        "events": "Etkinlikler",
         "contact": "İletişim",
         "arrival": "Ulaşım",
         "reservation": "Rezervasyon"
@@ -136,7 +136,7 @@
         },
         "contact": {
             "title": "İletişim",
-            "phone": "0 222 211 03 00",
+            "phone": "+90 222 724 30 40",
             "email": "info@airparkhotel.com"
         },
         "social": {
@@ -179,22 +179,23 @@
         "bookingCta": "Randevu Al"
     },
     "meeting": {
-        "title": "Toplantı & Etkinlik",
+        "title": "Etkinlikler",
         "subtitle": "Profesyonel Etkinlik Alanları",
-        "description": "Bir sonraki iş toplantınızı, konferansınızı veya kurumsal etkinliğinizi AirPark Hotel'de düzenleyin. Modern olanaklarımız ve profesyonel hizmetlerimiz başarılı bir etkinlik sağlar.",
-        "facilities": "Olanaklarımız",
-        "conferenceRooms": "Konferans Salonları",
-        "boardRoom": "Yönetici Toplantı Salonu",
-        "ballroom": "Büyük Balo Salonu",
-        "equipment": "Modern AV Ekipmanları",
+        "description": "Doğum günü, düğün, nişan, iş etkinliği veya özel günlerinizi AirPark Hotel'de düzenleyin. Modern mekânlarımız ve profesyonel hizmetlerimizle unutulmaz bir etkinlik yaşayın.",
+        "facilities": "Etkinlik Alanlarımız",
+        "conferenceRooms": "Kapalı Etkinlik Salonu",
+        "boardRoom": "Özel Etkinlik Odası",
+        "ballroom": "Büyük Etkinlik Salonu",
+        "equipment": "Modern Ses ve Görüntü Ekipmanları",
         "capacity": "Kapasite",
         "capacityInfo": "10 ila 500 misafir",
         "services": "Etkinlik Hizmetleri",
-        "catering": "Profesyonel Yemek Servisi",
-        "setup": "Esnek Salon Düzenlemesi",
+        "catering": "Profesyonel Yemek ve İkram",
+        "setup": "Esnek Mekân Düzenlemesi",
         "support": "Teknik Destek",
         "wifi": "Yüksek Hızlı WiFi",
-        "inquiryCta": "Teklif İsteyin"
+        "inquiryCta": "Teklif İsteyin",
+        "programAlt": "Etkinlik programı 2026"
     },
     "booking": {
         "title": "Rezervasyon Yap",
@@ -238,7 +239,8 @@
         "openInGoogleMaps": "Google Maps'te Aç",
         "transportByPlane": "Uçak ile Ulaşım",
         "transportByPlaneDescription": "Eskişehir Anadolu Havalimanı'na uçarak otelimize ulaşabilirsiniz. Havalimanından otelimize transfer veya araç kiralama seçenekleri hakkında bilgi almak için resepsiyonumuzla iletişime geçin.",
-        "planeSectionTitle": "HAVADAN",
+        "planeSectionTitle": "HAVADAN Ulaşım",
+        "planeSectionSubtitle": "S.H.M. / Havalimanı Bilgileri",
         "shmCoordinates": "S.H.M. Koordinatları",
         "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50'",
         "tower": "Artan Kule",
@@ -257,6 +259,12 @@
         "planeDisplayDirector": "SHG Display Director mail adresi:",
         "shmWebsite": "S.H.M. WEB SİTESİ",
         "shmCoordN": "N 39°17'59.29''",
-        "shmCoordE": "E 31°29'38.50''"
+        "shmCoordE": "E 31°29'38.50''",
+        "landTransportTitle": "Karadan Ulaşım",
+        "shmArrival": "S.H.M. Varış",
+        "shmArrivalMapAlt": "Karadan Ulaşım Haritası",
+        "shgAirshowArrival": "SHG AIRSHOW Alanına Varış",
+        "shgAirshowArrivalMapAlt": "SHG Airshow Alanına Varış Haritası",
+        "parkingWarning": "Gösteri emniyeti sebebiyle, yol üzerinde araç parkına izin verilmeyecektir."
     }
 }

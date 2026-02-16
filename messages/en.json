@@ -4,7 +4,7 @@
         "rooms": "Rooms",
         "gallery": "Gallery",
         "spa": "Spa & Wellness",
-        "meeting": "Meeting & Events",
+        "events": "Events",
         "contact": "Contact",
         "arrival": "Arrival",
         "reservation": "Reservation"
@@ -136,7 +136,7 @@
         },
         "contact": {
             "title": "Contact",
-            "phone": "0 222 211 03 00",
+            "phone": "+90 222 724 30 40",
             "email": "info@airparkhotel.com"
         },
         "social": {
@@ -179,22 +179,23 @@
         "bookingCta": "Book an Appointment"
     },
     "meeting": {
-        "title": "Meeting & Events",
+        "title": "Events",
         "subtitle": "Professional Event Spaces",
-        "description": "Host your next business meeting, conference, or corporate event at AirPark Hotel. Our modern facilities and professional services ensure a successful event.",
-        "facilities": "Our Facilities",
-        "conferenceRooms": "Conference Rooms",
-        "boardRoom": "Executive Board Room",
-        "ballroom": "Grand Ballroom",
-        "equipment": "Modern AV Equipment",
+        "description": "Host birthdays, weddings, engagements, corporate events or special celebrations at AirPark Hotel. Our modern venues and professional services create unforgettable experiences.",
+        "facilities": "Our Event Spaces",
+        "conferenceRooms": "Indoor Event Hall",
+        "boardRoom": "Private Event Room",
+        "ballroom": "Grand Event Hall",
+        "equipment": "Modern Audio & Visual Equipment",
         "capacity": "Capacity",
         "capacityInfo": "From 10 to 500 guests",
         "services": "Event Services",
-        "catering": "Professional Catering",
-        "setup": "Flexible Room Setup",
+        "catering": "Professional Catering & Refreshments",
+        "setup": "Flexible Space Setup",
         "support": "Technical Support",
         "wifi": "High-Speed WiFi",
-        "inquiryCta": "Request a Proposal"
+        "inquiryCta": "Request a Proposal",
+        "programAlt": "Events programme 2026"
     },
     "booking": {
         "title": "Make a Reservation",
@@ -238,7 +239,8 @@
         "openInGoogleMaps": "Open in Google Maps",
         "transportByPlane": "By Plane",
         "transportByPlaneDescription": "You can reach us by flying to Eskişehir Anadolu Airport. Contact our reception for transfer or car rental options from the airport to the hotel.",
-        "planeSectionTitle": "FROM THE AIR",
+        "planeSectionTitle": "FROM THE AIR Transport",
+        "planeSectionSubtitle": "S.H.M. / Airport Info",
         "shmCoordinates": "S.H.M. Coordinates",
         "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50'",
         "tower": "Tower",
@@ -257,6 +259,12 @@
         "planeDisplayDirector": "SHG Display Director email:",
         "shmWebsite": "S.H.M. WEBSITE",
         "shmCoordN": "N 39°17'59.29''",
-        "shmCoordE": "E 31°29'38.50''"
+        "shmCoordE": "E 31°29'38.50''",
+        "landTransportTitle": "Land Transport",
+        "shmArrival": "S.H.M. Arrival",
+        "shmArrivalMapAlt": "Land transport map to S.H.M.",
+        "shgAirshowArrival": "Arrival to SHG Airshow Area",
+        "shgAirshowArrivalMapAlt": "Map for arrival to SHG Airshow area",
+        "parkingWarning": "For show safety, vehicle parking on the road will not be permitted."
     }
 }
