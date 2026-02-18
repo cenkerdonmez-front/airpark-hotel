@@ -7,9 +7,24 @@ import { Footer } from '@/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, ChevronLeft, ChevronRight, Users, Bed, Maximize2, Bath, Wifi, Wind, Tv, Coffee, Shield, Sparkles, UtensilsCrossed, Car, X } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Users, Bed, Maximize2, ThermometerSun, Tv, Refrigerator, Coffee, Baby, ShowerHead, Footprints, Wind, Wifi, Car, UtensilsCrossed, Sparkles, X } from 'lucide-react';
 import { getRoomBySlug } from '@/lib/roomsData';
 import { useTranslations } from 'next-intl';
+import type { LucideIcon } from 'lucide-react';
+
+const FEATURE_ICONS: Record<string, LucideIcon> = {
+  airConditioningHeating: ThermometerSun,
+  tv43: Tv,
+  minibar: Refrigerator,
+  teaCoffee: Coffee,
+  babyCrib: Baby,
+  shower: ShowerHead,
+  slippers: Footprints,
+  hairdryer: Wind,
+  wifi: Wifi,
+  parking: Car,
+  breakfast: UtensilsCrossed,
+};
 
 interface RoomPageProps {
   params: Promise<{
@@ -98,57 +113,23 @@ export default function RoomPage({ params }: RoomPageProps) {
                   <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t(`${room.key}.beds`)}</span>
                 </div>
                 <div className="flex items-center space-x-3 group cursor-default">
-                  <Bath className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.bathrobe')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
                   <Users className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
                   <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('capacity')} {room.capacity.adults + room.capacity.children}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Sparkles className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.slippers')}</span>
                 </div>
                 <div className="flex items-center space-x-3 group cursor-default">
                   <Maximize2 className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
                   <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{room.size} m²</span>
                 </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Bath className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.bathrobe')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Wind className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.airConditioning')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Sparkles className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.hairdryer')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Tv className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">47&quot; HD Led TV</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Wifi className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.wifi')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Coffee className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.minibar')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Shield className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.safe')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <UtensilsCrossed className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.breakfast')}</span>
-                </div>
-                <div className="flex items-center space-x-3 group cursor-default">
-                  <Car className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
-                  <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t('features.parking')}</span>
-                </div>
+                {room.features.map((featureKey) => {
+                  const Icon = FEATURE_ICONS[featureKey];
+                  if (!Icon) return null;
+                  return (
+                    <div key={featureKey} className="flex items-center space-x-3 group cursor-default">
+                      <Icon className="w-5 h-5 text-brand-primary group-hover:scale-125 group-hover:rotate-12 transition-transform duration-300" />
+                      <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{t(`features.${featureKey}`)}</span>
+                    </div>
+                  );
+                })}
               </div>
 
               {/* Book Now Button */}

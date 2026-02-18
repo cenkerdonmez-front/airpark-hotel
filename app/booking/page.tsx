@@ -5,9 +5,11 @@ import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
+import { rooms } from '@/lib/roomsData';
 
 export default function BookingPage() {
   const t = useTranslations('booking');
+  const tRooms = useTranslations('rooms');
   const tFooter = useTranslations('footer');
   const [formData, setFormData] = useState({
     firstName: '',
@@ -173,9 +175,9 @@ export default function BookingPage() {
                     className="w-full px-4 py-3 border border-brand-primary/20 rounded-sm focus:outline-none focus:ring-2 focus:ring-brand-primary/50"
                   >
                     <option value="">{t('form.selectRoom')}</option>
-                    <option value="deluxe-twin-garden">Deluxe Twin Garden</option>
-                    <option value="deluxe-french-garden">Deluxe French Garden</option>
-                    <option value="deluxe-french-city">Deluxe French City</option>
+                    {rooms.map((room) => (
+                      <option key={room.slug} value={room.slug}>{tRooms(`${room.key}.name`)}</option>
+                    ))}
                   </select>
                 </div>
 

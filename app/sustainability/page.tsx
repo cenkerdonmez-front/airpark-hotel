@@ -1,92 +1,61 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
+import { FileText } from 'lucide-react';
+import Link from 'next/link';
+
+const SUSTAINABILITY_PDF_BY_LOCALE: Record<string, string> = {
+  tr: '/pdf/Airpark_Hotel_Hedefler_Ornek_TR.pdf',
+  en: '/pdf/Airpark_Hotel_Goals_Sample.pdf',
+};
 
 export default function SustainabilityPage() {
   const t = useTranslations('sustainability');
-
-  const initiatives = [
-    { key: 'energy', icon: '⚡' },
-    { key: 'water', icon: '💧' },
-    { key: 'waste', icon: '♻️' },
-    { key: 'local', icon: '🌱' },
-    { key: 'green', icon: '🌳' },
-    { key: 'materials', icon: '🏗️' },
-  ];
+  const locale = useLocale();
+  const pdfPath = SUSTAINABILITY_PDF_BY_LOCALE[locale] ?? SUSTAINABILITY_PDF_BY_LOCALE.en;
 
   return (
     <div className="min-h-screen bg-white">
-      <Navigation  />
-      
-      {/* Hero Section */}
-      <section className="relative min-h-[300px] bg-gradient-to-br from-brand-beige to-brand-beige/80">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-center px-6">
-            <p className="text-brand-primary/60 text-sm font-semibold tracking-widest uppercase mb-4">
-              {t('subtitle')}
-            </p>
-            <h1 className="font-display text-5xl md:text-7xl text-brand-primary mb-6">
-              {t('title')}
-            </h1>
-            <p className="text-brand-primary/80 text-lg md:text-xl max-w-2xl mx-auto">
-              {t('description')}
-            </p>
+      <Navigation />
+
+      {/* Hero */}
+      <section className="relative min-h-[220px] bg-gradient-to-br from-brand-beige to-brand-beige/80 flex items-center">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <p className="text-brand-primary/60 text-sm font-semibold tracking-widest uppercase mb-2">
+            {t('subtitle')}
+          </p>
+          <h1 className="font-display text-4xl md:text-6xl text-brand-primary">
+            {t('title')}
+          </h1>
+        </div>
+      </section>
+
+      {/* Policy text */}
+      <section className="py-12 md:py-16">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="prose prose-lg text-stone-700 space-y-6">
+            <p className="leading-relaxed">{t('policyParagraph1')}</p>
+            <p className="leading-relaxed">{t('policyParagraph2')}</p>
           </div>
         </div>
       </section>
 
-      {/* Initiatives Section */}
-      <section className="py-10 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="font-display text-4xl text-brand-primary text-center mb-12">
-            {t('initiativesTitle')}
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {initiatives.map((initiative, index) => (
-              <div
-                key={index}
-                className="bg-brand-beige/20 p-8 rounded-lg hover:bg-brand-beige/40 transition-colors"
-              >
-                <div className="text-5xl mb-4">{initiative.icon}</div>
-                <h3 className="font-semibold text-xl text-brand-primary mb-3">
-                  {t(`initiatives.${initiative.key}.title`)}
-                </h3>
-                <p className="text-brand-primary/70">
-                  {t(`initiatives.${initiative.key}.description`)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Commitment Section */}
+      {/* PDF section */}
       <section className="py-10 bg-brand-beige/20">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="font-display text-4xl text-brand-primary text-center mb-8">
-            {t('commitmentTitle')}
+        <div className="max-w-3xl mx-auto px-6 text-center">
+          <h2 className="text-xl font-semibold text-brand-primary mb-2">
+            {t('pdfSectionTitle')}
           </h2>
-          <div className="prose prose-lg mx-auto text-brand-primary/80">
-            <p className="text-center mb-6">
-              {t('commitment.paragraph1')}
-            </p>
-            <p className="text-center mb-6">
-              {t('commitment.paragraph2')}
-            </p>
-            <p className="text-center">
-              {t('commitment.paragraph3')}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Image Section */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="aspect-[4/3] bg-brand-beige rounded-lg"></div>
-            <div className="aspect-[4/3] bg-brand-beige rounded-lg"></div>
-          </div>
+          <p className="text-stone-600 text-sm mb-6">{t('pdfSectionDescription')}</p>
+          <Link
+            href={pdfPath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-brand-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-brand-primary/90 transition-colors"
+          >
+            <FileText className="w-5 h-5" />
+            {t('openPdfButton')}
+          </Link>
         </div>
       </section>
 

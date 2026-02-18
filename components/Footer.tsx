@@ -67,17 +67,20 @@ export function Footer() {
             <Link className="hover:text-white transition-colors" href="/sustainability">
               {t('legal.sustainability')}
             </Link>
-            <Link className="hover:text-white transition-colors" href="#">
+            <Link className="hover:text-white transition-colors" href="/privacy">
               {t('legal.privacy')}
             </Link>
-            <Link className="hover:text-white transition-colors" href="#">
-              {t('legal.cookies')}
-            </Link>
-            <Link className="hover:text-white transition-colors" href="#">
+            <Link className="hover:text-white transition-colors" href="/sales">
               {t('legal.sales')}
             </Link>
-            <Link className="hover:text-white transition-colors" href="#">
+            <Link className="hover:text-white transition-colors" href="/disclosure">
               {t('legal.disclosure')}
+            </Link>
+            <Link className="hover:text-white transition-colors" href="/amenities">
+              {t('legal.amenities')}
+            </Link>
+            <Link className="hover:text-white transition-colors" href="/cancellation">
+              {t('legal.cancellation')}
             </Link>
           </div>
           <div className="text-center md:text-right">

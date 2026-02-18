@@ -1,7 +1,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
-import { MapPin, PlaneLanding, AlertTriangle } from 'lucide-react';
+import { MapPin, PlaneLanding, AlertTriangle, Plane } from 'lucide-react';
 import Image from 'next/image';
 
 const GOOGLE_MAPS_DIRECTIONS_URL =
@@ -32,9 +32,91 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <section className="py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="rounded-2xl overflow-hidden border border-brand-primary/10 shadow-lg bg-brand-beige/20">
+            <div className="grid md:grid-cols-4 gap-0">
+              <div className="relative aspect-[4/3]  bg-brand-beige/30 col-span-3">
+              <Image
+                  src={locale === 'tr' ? '/contact/land_turkish.jpeg' : '/contact/land_english.jpeg'}
+                  alt={t('shmArrivalMapAlt')}
+                  height={1200}
+                  width={1200}
+                  className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
+                 
+                />
+              </div>
+              <div className="p-6 md:p-8 flex flex-col justify-start col-span-1">
+                <h4 className="font-display text-lg font-semibold text-brand-primary tracking-wide mb-4">
+                  {t('planeSectionTitle')}
+                </h4>
+                <div className="space-y-2 text-sm text-brand-primary/90">
+                  <p><span className="font-semibold">{t('shmCoordinates')}</span><br />{t('shmCoordinatesValue')}</p>
+                  <p><span className="font-semibold">{t('tower')}</span><br />{t('towerValue')}</p>
+                  <p><span className="font-semibold">{t('runwayHeadings')}</span><br />{t('runwayHeadingsValue')}</p>
+                  <p><span className="font-semibold">{t('runwayLength')}</span><br />{t('runwayLengthValue')}</p>
+                  <p><span className="font-semibold">{t('elevation')}</span><br />{t('elevationValue')}</p>
+                  <p><span className="font-semibold">{t('operatingHours')}</span><br /><span className="whitespace-pre-line">{t('operatingHoursValue')}</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="font-display text-2xl text-brand-primary mb-4 flex items-center gap-2">
+            <MapPin className="w-6 h-6" />
+            {t('mapTitle')}
+          </h2>
+          <a
+            href={GOOGLE_MAPS_DIRECTIONS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block rounded-2xl overflow-hidden border border-brand-primary/10 shadow-lg bg-brand-beige/20 group"
+          >
+            <div className="relative w-full aspect-[4/3] ">
+              <Image
+                src="/contact/map.png"
+                alt={t('mapTitle')}
+                height={1600}
+                width={1600}
+                className="object-cover scale-125 "
+        
+              />
+            </div>
+      
+          </a>
+        </div>
+      </section>
+      {/* <section className="mb-24 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-black text-brand-primary mb-8 flex items-center gap-4">
+            <span className="w-1.5 h-8 bg-brand-primary rounded-full" />
+            {t('landTransportTitle')}
+          </h2>
 
+          <div className="bg-brand-beige/30 rounded-3xl border border-brand-primary/10 shadow-inner mb-8">
+
+            <div className="rounded-2xl overflow-hidden shadow-2xl group">
+              <div className="relative w-full aspect-[4/3] bg-brand-beige/50">
+                <Image
+                  src={locale === 'tr' ? '/contact/land_turkish.jpeg' : '/contact/land_english.jpeg'}
+                  alt={t('shmArrivalMapAlt')}
+                  height={1200}
+                  width={1200}
+                  className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
+                 
+                />
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </section> */}
       {/* Havadan Ulaşım */}
-      <section id="transport" className="mb-24 px-6 scroll-mt-24">
+      {/* <section id="transport" className="mb-24 px-6 scroll-mt-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-black text-brand-primary mb-8 flex items-center gap-4">
             <span className="w-1.5 h-8 bg-brand-primary rounded-full" />
@@ -114,63 +196,8 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Karadan Ulaşım */}
-      <section className="mb-24 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-black text-brand-primary mb-8 flex items-center gap-4">
-            <span className="w-1.5 h-8 bg-brand-primary rounded-full" />
-            {t('landTransportTitle')}
-          </h2>
-
-          <div className="bg-brand-beige/30 rounded-3xl border border-brand-primary/10 shadow-inner mb-8">
-
-            <div className="rounded-2xl overflow-hidden shadow-2xl group">
-              <div className="relative w-full aspect-[4/3] bg-brand-beige/50">
-                <Image
-                  src={locale === 'tr' ? '/contact/land_turkish.jpeg' : '/contact/land_english.jpeg'}
-                  alt={t('shmArrivalMapAlt')}
-                  height={1200}
-                  width={1200}
-                  className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
-                 
-                />
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-      </section>
-
-      {/* Map - click to open Google Maps */}
-      <section className="py-12 px-6">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-2xl text-brand-primary mb-4 flex items-center gap-2">
-            <MapPin className="w-6 h-6" />
-            {t('mapTitle')}
-          </h2>
-          <a
-            href={GOOGLE_MAPS_DIRECTIONS_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block rounded-2xl overflow-hidden border border-brand-primary/10 shadow-lg bg-brand-beige/20 group"
-          >
-            <div className="relative w-full aspect-[4/3] ">
-              <Image
-                src="/contact/map.png"
-                alt={t('mapTitle')}
-                height={1600}
-                width={1600}
-                className="object-cover scale-125 "
-        
-              />
-            </div>
-      
-          </a>
-        </div>
-      </section>
 
       {/* Contact info at bottom of page */}
       <section id="contact" className="py-12 px-6 border-t border-brand-primary/10 scroll-mt-24">

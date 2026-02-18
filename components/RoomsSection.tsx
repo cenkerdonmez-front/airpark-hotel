@@ -4,6 +4,13 @@ import { useTranslations } from 'next-intl';
 import { RoomCard } from './RoomCard';
 import Link from 'next/link';
 import { rooms } from '@/lib/roomsData';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from '@/components/ui/carousel';
 
 export function RoomsSection() {
   const t = useTranslations('rooms');
@@ -23,17 +30,24 @@ export function RoomsSection() {
           {t('viewAll')}
         </Link>
       </div>
-      <div className="max-w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-        {rooms.map((room) => (
-          <RoomCard
-            key={room.key}
-            slug={room.slug}
-            name={t(`${room.key}.name`)}
-            description={t(`${room.key}.description`)}
-            image={room.images[0]}
-            size={room.size}
-          />
-        ))}
+      <div className="max-w-full mx-auto px-6">
+        <Carousel opts={{ align: 'start' }}>
+          <CarouselContent>
+            {rooms.map((room) => (
+              <CarouselItem key={room.key} className="basis-full md:basis-1/3">
+                <RoomCard
+                  slug={room.slug}
+                  name={t(`${room.key}.name`)}
+                  description={t(`${room.key}.description`)}
+                  image={room.images[0]}
+                  size={room.size}
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="left-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
+          <CarouselNext className="right-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
+        </Carousel>
       </div>
     </section>
   );

@@ -33,28 +33,41 @@
         "galleryModal": "Oda görseli galerisi",
         "closeModal": "Kapat",
         "features": {
-            "wifi": "Ücretsiz Wi-Fi",
+            "airConditioningHeating": "Klima ve ısıtma",
+            "tv43": "43' HD Led TV",
             "minibar": "Minibar",
-            "safe": "Kasa",
-            "airConditioning": "Klima",
-            "tv": "LCD TV",
-            "hairdryer": "Saç Kurutma Makinesi",
-            "bathrobe": "Bornoz & Terlik",
+            "teaCoffee": "Çay ve Kahve Ünitesi",
+            "babyCrib": "Bebek karyolası (istenirse)",
+            "shower": "Duş",
             "slippers": "Terlik",
-            "breakfast": "Açık Büfe Kahvaltı",
-            "parking": "Ücretsiz Otopark"
+            "hairdryer": "Saç kurutma makinesi",
+            "wifi": "Ücretsiz wifi",
+            "parking": "Ücretsiz otopark",
+            "breakfast": "Açık büfe kahvaltı"
         },
-        "deluxeTwinGarden": {
-            "name": "Konforlu Çift Kişilik Oda",
+        "deluxeTwinGardenView": {
+            "name": "Konforlu Çift Kişilik Oda – Bahçe Manzarası",
             "beds": "1 Çift Kişilik Yatak",
-            "description": "Konforlu çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
-            "longDescription": "Konforlu çift kişilik odamız 35 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
+            "description": "Bahçe manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
+            "longDescription": "Bahçe manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
         },
-        "deluxeFrenchGarden": {
-            "name": "3 Kişilik Oda",
+        "deluxeTwinLakeView": {
+            "name": "Konforlu Çift Kişilik Oda – Göl Manzarası",
             "beds": "1 Çift Kişilik Yatak",
-            "description": "Üç kişiye kadar misafir ağırlayan odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
-            "longDescription": "3 kişilik odamız 35 metrekare rafine yaşam alanı sunar. Çift kişilik yatak ve sofistike iç tasarım ile rahat bir konaklama imkânı. Üç misafire kadar ağırlayabilir."
+            "description": "Göl manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
+            "longDescription": "Göl manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
+        },
+        "deluxeFrenchGardenView": {
+            "name": "3 Kişilik Oda – Bahçe Manzarası",
+            "beds": "1 Çift + 1 Tek Kişilik Yatak",
+            "description": "Bahçe manzaralı üç kişilik odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
+            "longDescription": "Bahçe manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
+        },
+        "deluxeFrenchLakeView": {
+            "name": "3 Kişilik Oda – Göl Manzarası",
+            "beds": "1 Çift + 1 Tek Kişilik Yatak",
+            "description": "Göl manzaralı üç kişilik odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
+            "longDescription": "Göl manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
         },
         "deluxeFrenchCity": {
             "name": "Suit Oda",
@@ -66,41 +79,11 @@
     "sustainability": {
         "subtitle": "Geleceğe Sözümüz",
         "title": "Sürdürülebilirlik",
-        "description": "Sürdürülebilirlik yolculuğumuzda umut ve heyecanla adım attığımız bu yolda, tüm ekibimiz, iş ortaklarımız ve sevgili misafirlerimizle birlikte adımlarımızı hızlandırmak için sabırsızlanıyoruz.",
-        "cta": "Detaylı Bilgi",
-        "initiativesTitle": "Sürdürülebilirlik Girişimlerimiz",
-        "initiatives": {
-            "energy": {
-                "title": "Enerji Verimliliği",
-                "description": "Tesisimizin her yerinde yenilenebilir enerji kaynakları ve enerji verimli sistemler kullanıyoruz."
-            },
-            "water": {
-                "title": "Su Tasarrufu",
-                "description": "Gelişmiş su yönetim sistemleri, su israfını en aza indirmemize ve bu değerli kaynağı korumamıza yardımcı oluyor."
-            },
-            "waste": {
-                "title": "Atık Azaltma",
-                "description": "Kapsamlı geri dönüşüm programları ve kompostlama girişimleri çevre ayak izimizi azaltıyor."
-            },
-            "local": {
-                "title": "Yerel Kaynak Kullanımı",
-                "description": "Topluluğu desteklemek ve ulaşım emisyonlarını azaltmak için yerel tedarikçiler ve çiftçilerle ortaklık kuruyoruz."
-            },
-            "green": {
-                "title": "Yeşil Alanlar",
-                "description": "Bahçelerimiz ve yeşil alanlarımız doğal yaşam alanları sağlıyor ve hava kalitesini iyileştiriyor."
-            },
-            "materials": {
-                "title": "Sürdürülebilir Malzemeler",
-                "description": "İnşaat ve operasyonlarımızda çevre dostu ve sürdürülebilir malzemelere öncelik veriyoruz."
-            }
-        },
-        "commitmentTitle": "Taahhüdümüz",
-        "commitment": {
-            "paragraph1": "AirPark Hotel'de sürdürülebilirlik sadece bir politika değil, bir yaşam tarzıdır. Olağanüstü misafirperverlik deneyimleri sunarken çevresel etkimizi azaltmaya kararlıyız.",
-            "paragraph2": "Misafirlerimiz, ekibimiz ve topluluğumuz için daha sürdürülebilir bir gelecek yaratmak için yenilikçi teknolojilere yatırım yapıyor ve benzer düşünen kuruluşlarla ortaklık kurarak uygulamalarımızı sürekli olarak değerlendiriyor ve geliştiriyoruz.",
-            "paragraph3": "Misafirlerimiz ve ortaklarımızla birlikte, gelecek nesillere fayda sağlayacak bir çevre yönetimi mirası inşa ediyoruz."
-        }
+        "policyParagraph1": "AirPark Hotel olarak ekolojik denge ile ekonomik büyümeyi birlikte ele alan, doğal kaynakların etkin kullanımını sağlayan, çevresel kaliteye önem veren ve gelecek kuşakların kendi ihtiyaçlarını karşılayabilmelerini tehlikeye sokmaksızın bugünkü ihtiyaçları karşılayabilen bir sürdürülebilirlik politikası yürütmekteyiz.",
+        "policyParagraph2": "Sürdürülebilirlik politikası kapsamında sosyal, kültürel, çevresel ve ekonomik alanlarda çalışmalar gerçekleştirilmekte olup, otelimiz bu politikayı benimseyen uygulamalara katılmaktadır.",
+        "pdfSectionTitle": "Sürdürülebilirlik Politikası Belgesi",
+        "pdfSectionDescription": "Politikamızın tam metnini aşağıdaki belgede inceleyebilirsiniz.",
+        "openPdfButton": "Belgeyi Aç (PDF)"
     },
     "partners": {
         "title": "İş Ortaklarımız",
@@ -148,11 +131,94 @@
         "legal": {
             "sustainability": "Sürdürülebilirlik",
             "privacy": "Gizlilik",
-            "cookies": "Çerezler",
             "sales": "Mesafeli Satış",
             "disclosure": "Aydınlatma Metni",
+            "amenities": "Olanaklar",
+            "cancellation": "İptal Koşulları",
             "copyright": "© 2026 AIRPARKHOTEL. TÜM HAKLARI SAKLIDIR."
         }
+    },
+    "privacyPage": {
+        "title": "Gizlilik Politikası",
+        "lastUpdated": "Son güncelleme",
+        "intro": "AirPark Hotel gizliliğinize saygı duyar. Bu politika, web sitemizi kullandığınızda veya otelimizde konakladığınızda kişisel verilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
+        "s1Title": "Topladığımız Veriler",
+        "s1Content": "Adınız, iletişim bilgileriniz (e-posta, telefon, adres), kimlik bilgileriniz, ödeme bilgileriniz, konaklama tercihleriniz ve rezervasyon geçmişiniz toplanabilir. Bu veriler rezervasyon yaptığınızda, bizimle iletişime geçtiğinizde, web sitemizi kullandığınızda veya otelde kaldığınızda toplanır.",
+        "s2Title": "Verilerinizi Nasıl Kullanıyoruz",
+        "s2Content": "Verileriniz rezervasyon işlemleri, konaklama ve hizmet sunumu, sizinle iletişim, hizmetlerimizi iyileştirme, yasal yükümlülüklere uyum ve onayınızla kampanya ve haber iletmek için kullanılır.",
+        "s3Title": "Veri Saklama ve Güvenlik",
+        "s3Content": "Verileriniz yalnızca yukarıdaki amaçlar veya yasanın gerektirdiği süre boyunca saklanır. Kişisel verilerinizi yetkisiz erişime veya kayba karşı korumak için teknik ve idari önlemler alırız.",
+        "s4Title": "Haklarınız",
+        "s4Content": "Verilerinize erişme, düzeltme, silme veya işlemeyi kısıtlama ve itiraz etme hakkına sahipsiniz. Veri taşınabilirliği ve denetim makamına şikayette bulunma hakkınız da olabilir. Bu hakları kullanmak için lütfen footer’daki iletişim bilgilerinden bize ulaşın.",
+        "s5Title": "İletişim",
+        "s5Content": "Bu Gizlilik Politikası veya kişisel verileriniz hakkında sorularınız için info@airparkhotel.com veya +90 222 724 30 40 numaralı telefondan bize ulaşabilirsiniz."
+    },
+    "salesPage": {
+        "title": "Mesafeli Satış Sözleşmesi",
+        "lastUpdated": "Son güncelleme",
+        "intro": "Bu Mesafeli Satış Sözleşmesi, AirPark Hotel’den web sitemiz, telefon veya diğer uzaktan araçlarla satın aldığınız konaklama ve ilgili hizmetlere uygulanır.",
+        "s1Title": "Taraflar",
+        "s1Content": "Satıcı: AirPark Hotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Alıcı: Rezervasyonu yapan misafir.",
+        "s2Title": "Sözleşmenin Konusu ve Kurulması",
+        "s2Content": "Sözleşmenin konusu, rezervasyon anında belirtilen konaklama ve ilgili hizmetlerdir. Sözleşme, alıcı rezervasyonu tamamlayıp onay aldığında kurulur. Fiyat ve ödeme koşulları rezervasyon sırasında belirtildiği gibidir.",
+        "s3Title": "Cayma Hakkı",
+        "s3Content": "Yürürlükteki mevzuata göre, belirli bir tarih veya dönem için konaklama hizmetlerinde cayma hakkı uygulanmayabilir. Rezervasyon anında belirtilen iptal koşulları geçerlidir. Rezervasyonunuzu onaylamadan önce iptal politikasını okumanızı öneririz.",
+        "s4Title": "Şikayet ve Uyuşmazlıklar",
+        "s4Content": "Hizmete ilişkin şikayetlerin en kısa sürede otele bildirilmesi gerekir. Uyuşmazlıklarda satıcının bulunduğu yer mahkeme ve icra daireleri yetkilidir. Yerel mevzuat kapsamındaki tüketici hakları saklıdır.",
+        "s5Title": "İletişim",
+        "s5Content": "Rezervasyon veya bu sözleşmeyle ilgili sorularınız için: info@airparkhotel.com, +90 222 724 30 40."
+    },
+    "disclosurePage": {
+        "title": "Aydınlatma Metni",
+        "lastUpdated": "Son güncelleme",
+        "intro": "AirPark Hotel olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat kapsamında veri sorumlusu sıfatıyla kişisel verilerinizi işlemekteyiz. Bu metin, kişisel verilerinizin işlenmesine ilişkin sizi bilgilendirmek amacıyla hazırlanmıştır.",
+        "s1Title": "Veri Sorumlusu",
+        "s1Content": "Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir adresinde bulunan AirPark Hotel, web sitemiz, rezervasyon sistemi veya konaklamanız sırasında ilettiğiniz kişisel verilerin veri sorumlusudur.",
+        "s2Title": "İşleme Amaçları",
+        "s2Content": "Kişisel verileriniz, konaklama sözleşmesinin ifası, hizmet sunumu, rezervasyon yönetimi, yasal yükümlülüklerin yerine getirilmesi, güvenliğin sağlanması ve onayınıza bağlı olarak pazarlama ve iletişim faaliyetlerinin yürütülmesi amaçlarıyla işlenebilir.",
+        "s3Title": "Hukuki Sebepler",
+        "s3Content": "İşleme, işleme amacına göre sözleşmenin ifası, yasal yükümlülük, veri sorumlusunun meşru menfaati veya açık rızanız kapsamında gerçekleştirilir.",
+        "s4Title": "İlgili Kişinin Hakları",
+        "s4Content": "KVKK 11. madde kapsamında verilerinizin işlenip işlenmediğini öğrenme, düzeltme veya silme talep etme, işlemeye itiraz etme ve Kişisel Verileri Koruma Kuruluna şikayette bulunma hakkına sahipsiniz. Taleplerinizi yazılı veya Kurulca belirlenen diğer yöntemlerle bize iletebilirsiniz.",
+        "s5Title": "İletişim",
+        "s5Content": "Kişisel verilerinize ilişkin talepler için: info@airparkhotel.com veya yukarıdaki adresimiz. Yasada öngörülen süreler içinde yanıt vereceğiz."
+    },
+    "amenitiesPage": {
+        "title": "Otel Olanakları ve Hizmetler",
+        "subtitle": "Neler Sunuyoruz",
+        "description": "Konaklamanızı otele özel olanaklar ve hizmetlerle keyifli hale getirin.",
+        "evCharging": {
+            "title": "Elektrikli Araç Şarj İstasyonu",
+            "description": "Otelimizde 2 adet elektrikli araç şarj istasyonumuz bulunmaktadır. Elektrikli araçla gelen misafirlerimiz konaklama süresince aracını şarj edebilir."
+        },
+        "petFriendly": {
+            "title": "Evcil Hayvan Dostu",
+            "description": "Dört ayaklı dostlarınız da misafirlerimizdir. Pet friendly bir otel olarak rezervasyon sırasında bizi bilgilendirmeniz, sizin ve dostunuz için en uygun konaklamayı hazırlamamıza yardımcı olur."
+        },
+        "laundryIron": {
+            "title": "Çamaşır ve Ütü",
+            "description": "Çamaşır ve ütü imkânlarımız sayesinde hafif yolculuk edebilir, konaklamanız boyunca kıyafetlerinizi taze tutabilirsiniz."
+        },
+        "openBreakfast": {
+            "title": "Açık Büfe Kahvaltı",
+            "description": "Güne açık büfe kahvaltımızla başlayın. Sıcak ve soğuk lezzetler, hamur işleri ve içeceklerden oluşan geniş seçenekler güne harika bir başlangıç sunar."
+        }
+    },
+    "cancellationPage": {
+        "title": "İptal Koşulları",
+        "subtitle": "Rezervasyon Şartları",
+        "lastUpdated": "Son güncelleme",
+        "intro": "Lütfen aşağıdaki iptal koşullarımızı okuyun. Planlarınız değişirse bizimle iletişime geçmenizi öneririz.",
+        "s1Title": "Ücretsiz İptal",
+        "s1Content": "Giriş tarihinden 14 gün öncesine kadar rezervasyonunuzu ücretsiz iptal edebilirsiniz. İptal, rezervasyonun yapıldığı kanal üzerinden (telefon veya e-posta ile otele) yapılmalı ve tarafımızca onaylanmalıdır.",
+        "s2Title": "Geç İptal",
+        "s2Content": "Girişten 14 gün ile 2 gün arasında iptal yapılırsa ilk gece ücreti alınır. Giriş tarihinden 2 gün içinde veya giriş saatinden sonra yapılan iptallerde konaklamanın tamamı ücretlendirilebilir.",
+        "s3Title": "Gelmeme (No-Show)",
+        "s3Content": "Rezervasyonunuzu iptal etmeden gelmediğiniz takdirde (no-show) rezervasyonun tam tutarı alınabilir.",
+        "s4Title": "Değişiklikler",
+        "s4Content": "Tarih veya oda tipi değişiklikleri müsaitliğe ve fiyat farkına tabidir. Rezervasyonunuzu değiştirmek için lütfen en kısa sürede bizimle iletişime geçin.",
+        "s5Title": "İletişim",
+        "s5Content": "İptal veya sorularınız için: info@airparkhotel.com veya +90 222 724 30 40. İptalinizi talep üzerine yazılı (örn. e-posta ile) onaylayacağız."
     },
     "common": {
         "squareMeters": "m²",
@@ -161,7 +227,8 @@
     "gallery": {
         "title": "Galeri",
         "subtitle": "AirPark Hotel'i Keşfedin",
-        "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün."
+        "description": "Fotoğraflar ve videolar aracılığıyla otelimizi keşfedin. Odalarımızı, tesislerimizi ve sizi bekleyen deneyimleri görün.",
+        "viewAll": "Tüm galeriyi gör"
     },
     "spa": {
         "title": "Spa & Sağlık",

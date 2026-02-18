@@ -1,7 +1,7 @@
 import { Navigation } from '@/components/Navigation';
 import { Hero } from '@/components/Hero';
 import { RoomsSection } from '@/components/RoomsSection';
-import { SustainabilitySection } from '@/components/SustainabilitySection';
+import { GallerySection } from '@/components/GallerySection';
 import { PartnersSection } from '@/components/PartnersSection';
 import { Footer } from '@/components/Footer';
 
@@ -11,7 +11,7 @@ export default function Home() {
       <Navigation />
       <Hero />
       <RoomsSection />
-      <SustainabilitySection />
+      <GallerySection />
       <PartnersSection />
       <Footer />
     </div>

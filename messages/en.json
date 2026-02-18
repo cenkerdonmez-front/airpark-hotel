@@ -33,28 +33,41 @@
         "galleryModal": "Room photo gallery",
         "closeModal": "Close",
         "features": {
-            "wifi": "Free Wi-Fi",
+            "airConditioningHeating": "Air conditioning & heating",
+            "tv43": "43\" HD LED TV",
             "minibar": "Minibar",
-            "safe": "Safe",
-            "airConditioning": "Air Conditioning",
-            "tv": "LCD TV",
-            "hairdryer": "Hair Dryer",
-            "bathrobe": "Bathrobe & Slippers",
+            "teaCoffee": "Tea & coffee unit",
+            "babyCrib": "Baby crib (on request)",
+            "shower": "Shower",
             "slippers": "Slippers",
-            "breakfast": "Open Buffet Breakfast",
-            "parking": "Free Parking"
+            "hairdryer": "Hair dryer",
+            "wifi": "Free Wi‑Fi",
+            "parking": "Free parking",
+            "breakfast": "Open buffet breakfast"
         },
-        "deluxeTwinGarden": {
-            "name": "Comfortable Double Room",
+        "deluxeTwinGardenView": {
+            "name": "Comfortable Double Room – Garden View",
             "beds": "1 Double Bed",
-            "description": "Enjoy a comfortable stay in our double room. Modern design and comfort combined.",
-            "longDescription": "Our comfortable double room offers 35 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
+            "description": "Enjoy a comfortable stay in our garden view double room. Modern design and comfort combined.",
+            "longDescription": "Our garden view double room offers 30 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
         },
-        "deluxeFrenchGarden": {
-            "name": "Triple Room",
+        "deluxeTwinLakeView": {
+            "name": "Comfortable Double Room – Lake View",
             "beds": "1 Double Bed",
-            "description": "Discover comfort in our triple room, accommodating up to three guests. Ideal for families or friends.",
-            "longDescription": "Our triple room offers 35 square meters of refined living space. With a double bed and sophisticated interior design it provides a comfortable stay for up to three guests."
+            "description": "Enjoy a comfortable stay in our lake view double room. Modern design and comfort combined.",
+            "longDescription": "Our lake view double room offers 30 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
+        },
+        "deluxeFrenchGardenView": {
+            "name": "Triple Room – Garden View",
+            "beds": "1 Double + 1 Single Bed",
+            "description": "Discover comfort in our garden view triple room, accommodating up to three guests. Ideal for families or friends.",
+            "longDescription": "Our garden view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
+        },
+        "deluxeFrenchLakeView": {
+            "name": "Triple Room – Lake View",
+            "beds": "1 Double + 1 Single Bed",
+            "description": "Discover comfort in our lake view triple room, accommodating up to three guests. Ideal for families or friends.",
+            "longDescription": "Our lake view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
         },
         "deluxeFrenchCity": {
             "name": "Suite Room",
@@ -66,41 +79,11 @@
     "sustainability": {
         "subtitle": "Our Promise to the Future",
         "title": "Sustainability",
-        "description": "On our sustainability journey, we are eager to accelerate our steps with all our team, business partners, and dear guests on this path we take with hope and excitement.",
-        "cta": "More Information",
-        "initiativesTitle": "Our Sustainability Initiatives",
-        "initiatives": {
-            "energy": {
-                "title": "Energy Efficiency",
-                "description": "We use renewable energy sources and energy-efficient systems throughout our property."
-            },
-            "water": {
-                "title": "Water Conservation",
-                "description": "Advanced water management systems help us minimize water waste and preserve this precious resource."
-            },
-            "waste": {
-                "title": "Waste Reduction",
-                "description": "Comprehensive recycling programs and composting initiatives reduce our environmental footprint."
-            },
-            "local": {
-                "title": "Local Sourcing",
-                "description": "We partner with local suppliers and farmers to support the community and reduce transportation emissions."
-            },
-            "green": {
-                "title": "Green Spaces",
-                "description": "Our gardens and green spaces provide natural habitats and improve air quality."
-            },
-            "materials": {
-                "title": "Sustainable Materials",
-                "description": "We prioritize eco-friendly and sustainable materials in our construction and operations."
-            }
-        },
-        "commitmentTitle": "Our Commitment",
-        "commitment": {
-            "paragraph1": "At AirPark Hotel, sustainability is not just a policy—it's a way of life. We are committed to reducing our environmental impact while providing exceptional hospitality experiences.",
-            "paragraph2": "We continuously evaluate and improve our practices, investing in innovative technologies and partnering with like-minded organizations to create a more sustainable future for our guests, team, and community.",
-            "paragraph3": "Together with our guests and partners, we are building a legacy of environmental stewardship that will benefit generations to come."
-        }
+        "policyParagraph1": "At AirPark Hotel we pursue a sustainability policy that balances ecological balance with economic growth, ensures the effective use of natural resources, values environmental quality, and meets today's needs without compromising the ability of future generations to meet their own.",
+        "policyParagraph2": "Within the scope of this sustainability policy, we carry out work in social, cultural, environmental and economic areas, and our hotel participates in practices that embrace this policy.",
+        "pdfSectionTitle": "Sustainability Policy Document",
+        "pdfSectionDescription": "You can read the full text of our policy in the document below.",
+        "openPdfButton": "Open Document (PDF)"
     },
     "partners": {
         "title": "Our Partners",
@@ -148,11 +131,94 @@
         "legal": {
             "sustainability": "Sustainability",
             "privacy": "Privacy",
-            "cookies": "Cookies",
             "sales": "Distance Sales",
             "disclosure": "Disclosure Text",
+            "amenities": "Amenities",
+            "cancellation": "Cancellation Policy",
             "copyright": "© 2026 AIRPARKHOTEL. ALL RIGHTS RESERVED."
         }
+    },
+    "privacyPage": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last updated",
+        "intro": "AirPark Hotel respects your privacy. This policy explains how we collect, use and protect your personal data when you use our website or stay at our hotel.",
+        "s1Title": "Data We Collect",
+        "s1Content": "We may collect your name, contact details (email, phone, address), identity information, payment details, stay preferences and reservation history. We collect this data when you make a reservation, contact us, use our website or stay at the hotel.",
+        "s2Title": "How We Use Your Data",
+        "s2Content": "We use your data to process reservations, provide accommodation and services, communicate with you, improve our services, comply with legal obligations and, with your consent, send you offers and news.",
+        "s3Title": "Data Retention & Security",
+        "s3Content": "We retain your data only as long as necessary for the purposes above or as required by law. We implement appropriate technical and organisational measures to protect your personal data against unauthorised access or loss.",
+        "s4Title": "Your Rights",
+        "s4Content": "You have the right to access, correct, delete or restrict the processing of your data, and to object to processing. You may also have the right to data portability and to lodge a complaint with a supervisory authority. To exercise these rights, please contact us using the details in the footer.",
+        "s5Title": "Contact",
+        "s5Content": "For any questions about this Privacy Policy or your personal data, please contact us at info@airparkhotel.com or call +90 222 724 30 40."
+    },
+    "salesPage": {
+        "title": "Distance Sales Agreement",
+        "lastUpdated": "Last updated",
+        "intro": "This Distance Sales Agreement applies to accommodation and related services you purchase from AirPark Hotel via our website, phone or other remote means.",
+        "s1Title": "Parties",
+        "s1Content": "Seller: AirPark Hotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Buyer: the guest who makes the reservation.",
+        "s2Title": "Subject & Conclusion of Contract",
+        "s2Content": "The subject of the contract is the accommodation and related services described at the time of booking. The contract is concluded when the buyer completes the reservation and receives confirmation. Prices and payment terms are as stated during the booking process.",
+        "s3Title": "Right of Withdrawal",
+        "s3Content": "According to applicable law, the right of withdrawal may not apply to accommodation services for a specific date or period. Cancellation conditions stated at the time of booking apply. We recommend that you read the cancellation policy before confirming your reservation.",
+        "s4Title": "Complaints & Disputes",
+        "s4Content": "Any complaint regarding the service must be reported to the hotel as soon as possible. For disputes, the courts and enforcement offices of the seller's location are authorised. Consumer rights under local law remain reserved.",
+        "s5Title": "Contact",
+        "s5Content": "For questions about reservations or this agreement: info@airparkhotel.com, +90 222 724 30 40."
+    },
+    "disclosurePage": {
+        "title": "Disclosure Text",
+        "lastUpdated": "Last updated",
+        "intro": "As AirPark Hotel, we process your personal data in the capacity of data controller within the framework of the Turkish Personal Data Protection Law (KVKK) and applicable legislation. This text is intended to inform you about the processing of your personal data.",
+        "s1Title": "Data Controller",
+        "s1Content": "AirPark Hotel, located at Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir, is the data controller for the personal data you provide through our website, reservation system or during your stay.",
+        "s2Title": "Purposes of Processing",
+        "s2Content": "Your personal data may be processed for the purposes of performing the accommodation contract, providing services, managing reservations, fulfilling legal obligations, ensuring security and, subject to your consent, carrying out marketing and communication activities.",
+        "s3Title": "Legal Grounds",
+        "s3Content": "Processing is based on the performance of the contract, legal obligation, legitimate interest of the data controller or your explicit consent, depending on the purpose of processing.",
+        "s4Title": "Rights of the Data Subject",
+        "s4Content": "Under KVKK Article 11 you have the right to learn whether your data is processed, to request correction or deletion, to object to processing and to lodge a complaint with the Personal Data Protection Board. You may submit your requests to us in writing or by other methods prescribed by the Board.",
+        "s5Title": "Contact",
+        "s5Content": "For requests regarding your personal data: info@airparkhotel.com or our address above. We will respond within the periods stipulated by law."
+    },
+    "amenitiesPage": {
+        "title": "Hotel Amenities & Services",
+        "subtitle": "What We Offer",
+        "description": "Make the most of your stay with our on-site amenities and services.",
+        "evCharging": {
+            "title": "Electric Vehicle Charging",
+            "description": "We have 2 electric car charging stations on site. Charge your vehicle while you stay—ideal for guests arriving by electric car."
+        },
+        "petFriendly": {
+            "title": "Pet Friendly",
+            "description": "Your four-legged friends are welcome. We are a pet-friendly hotel; please inform us when booking so we can prepare the best stay for you and your pet."
+        },
+        "laundryIron": {
+            "title": "Laundry & Iron",
+            "description": "Laundry and ironing facilities are available so you can travel light and keep your clothes fresh throughout your stay."
+        },
+        "openBreakfast": {
+            "title": "Open Buffet Breakfast",
+            "description": "Start your day with our open buffet breakfast. A wide selection of hot and cold items, pastries, and beverages is included for a great start to the day."
+        }
+    },
+    "cancellationPage": {
+        "title": "Cancellation Policy",
+        "subtitle": "Reservation Terms",
+        "lastUpdated": "Last updated",
+        "intro": "Please read our cancellation policy below. We recommend booking with peace of mind and contacting us if your plans change.",
+        "s1Title": "Free Cancellation",
+        "s1Content": "You may cancel your reservation free of charge until 14 days before the check-in date. Cancellations must be made by the same channel used for booking (e.g. phone or email to the hotel) and confirmed by us.",
+        "s2Title": "Late Cancellation",
+        "s2Content": "If you cancel between 14 days and 2 days before check-in, the first night will be charged. Cancellations made within 2 days of check-in or after the scheduled check-in time may result in a charge of the full stay.",
+        "s3Title": "No-Show",
+        "s3Content": "If you do not arrive and do not cancel your reservation (no-show), the full amount of the reservation may be charged.",
+        "s4Title": "Modifications",
+        "s4Content": "Changes to dates or room type are subject to availability and rate differences. Please contact us as soon as possible to modify your booking.",
+        "s5Title": "Contact",
+        "s5Content": "For cancellations or questions: info@airparkhotel.com or +90 222 724 30 40. We will confirm your cancellation in writing (e.g. by email) upon request."
     },
     "common": {
         "squareMeters": "m²",
@@ -161,7 +227,8 @@
     "gallery": {
         "title": "Gallery",
         "subtitle": "Discover AirPark Hotel",
-        "description": "Explore our hotel through photos and videos. Get a glimpse of our rooms, facilities, and the experiences that await you."
+        "description": "Explore our hotel through photos and videos. Get a glimpse of our rooms, facilities, and the experiences that await you.",
+        "viewAll": "View full gallery"
     },
     "spa": {
         "title": "Spa & Wellness",
