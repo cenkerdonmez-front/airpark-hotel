@@ -43,7 +43,7 @@ export function Footer() {
               {t('contact.email')}
             </p>
           </div>
-
+{/* 
           <div className="space-y-4">
             <h5 className="text-[10px] font-bold uppercase tracking-widest text-white/50">
               {t('social.title')}
@@ -59,7 +59,7 @@ export function Footer() {
                 <Instagram className="w-4 h-4 brightness-0 invert" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[9px] font-bold uppercase tracking-widest text-white/40 gap-4">
