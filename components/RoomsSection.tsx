@@ -31,23 +31,39 @@ export function RoomsSection() {
         </Link>
       </div>
       <div className="max-w-full mx-auto px-6">
-        <Carousel opts={{ align: 'start' }}>
-          <CarouselContent>
-            {rooms.map((room) => (
-              <CarouselItem key={room.key} className="basis-full md:basis-1/3">
-                <RoomCard
-                  slug={room.slug}
-                  name={t(`${room.key}.name`)}
-                  description={t(`${room.key}.description`)}
-                  image={room.images[0]}
-                  size={room.size}
-                />
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
-          <CarouselNext className="right-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
-        </Carousel>
+        {/* Mobile: stacked list */}
+        <div className="flex flex-col gap-6 md:hidden">
+          {rooms.map((room) => (
+            <RoomCard
+              key={room.key}
+              slug={room.slug}
+              name={t(`${room.key}.name`)}
+              description={t(`${room.key}.description`)}
+              image={room.images[0]}
+              size={room.size}
+            />
+          ))}
+        </div>
+        {/* md+: carousel */}
+        <div className="hidden md:block">
+          <Carousel opts={{ align: 'start' }}>
+            <CarouselContent>
+              {rooms.map((room) => (
+                <CarouselItem key={room.key} className="basis-1/3">
+                  <RoomCard
+                    slug={room.slug}
+                    name={t(`${room.key}.name`)}
+                    description={t(`${room.key}.description`)}
+                    image={room.images[0]}
+                    size={room.size}
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
+            <CarouselNext className="right-2 bg-white/90 border-brand-primary/20 text-brand-primary hover:bg-white" />
+          </Carousel>
+        </div>
       </div>
     </section>
   );
