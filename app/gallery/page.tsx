@@ -13,7 +13,7 @@ import {
 import { Button } from '@/components/ui/button';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const GALLERY_IMAGES = Array.from({ length: 20 }, (_, i) => `/gallery/${i + 1}.jpg`);
+const GALLERY_IMAGES = Array.from({ length: 29 }, (_, i) => `/gallery/${i + 1}.jpg`);
 
 const imageButtonClass = 'cursor-pointer transition-transform duration-300 hover:scale-[1.03]';
 

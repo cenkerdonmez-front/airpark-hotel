@@ -37,9 +37,9 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
               <Link className="hover:text-brand-primary transition-colors" href="/rooms">
                 {t('nav.rooms')}
               </Link>
-              <Link className="hover:text-brand-primary transition-colors" href="/meeting">
+              {/* <Link className="hover:text-brand-primary transition-colors" href="/meeting">
                 {t('nav.events')}
-              </Link>
+              </Link> */}
               <Link className="hover:text-brand-primary transition-colors" href="/gallery">
                 {t('nav.gallery')}
               </Link>
@@ -132,13 +132,13 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
             >
               {t('nav.rooms')}
             </Link>
-            <Link 
+            {/* <Link 
               className="hover:text-brand-primary transition-colors py-2" 
               href="/meeting"
               onClick={() => setIsMenuOpen(false)}
             >
               {t('nav.events')}
-            </Link>
+            </Link> */}
             <Link 
               className="hover:text-brand-primary transition-colors py-2" 
               href="/gallery"
