@@ -48,16 +48,16 @@
             "breakfast": "Açık Büfe Kahvaltı"
         },
         "deluxeTwinGardenView": {
-            "name": "Konforlu Çift Kişilik Oda",
+            "name": "Konforlu Çift kişilik standart oda",
             "beds": "1 Çift Kişilik Yatak",
             "description": "Bahçe manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
-            "longDescription": "Bahçe manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
+            "longDescription": "Havacılık ve Doğanın Buluştuğu Özel Manzara\nGökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler, ergonomik detaylar ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir ayrıcalığa dönüşür.\nAirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır"
         },
         "deluxeTwinLakeView": {
-            "name": "Konforlu Çift Kişilik Oda – Göl Manzarası",
+            "name": "APRON & LAKE VIEW ROOMS",
             "beds": "1 Çift Kişilik Yatak",
-            "description": "Göl manzaralı çift kişilik odamızda rahat bir konaklama deneyimi yaşayın. Modern tasarım ve konfor bir arada.",
-            "longDescription": "Göl manzaralı çift kişilik odamız 30 metrekare düşünülmüş tasarım alanı ile çift kişilik yatak, modern banyo ve tüm temel olanakları sunar. Her detay, konaklamanızın rahat ve keyifli geçmesi için özenle düşünülmüştür. Çiftler için ideal."
+            "description": "Apron ve Gölet Manzaralı Seçkin Konfor",
+            "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda, doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar, sadece konfor değil; ilham, huzur ve aidiyet duygusu sunar."
         },
         "deluxeFrenchGardenView": {
             "name": "3 Kişilik Oda",
@@ -72,10 +72,10 @@
             "longDescription": "Göl manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
         },
         "deluxeFrenchCity": {
-            "name": "Suit Oda",
+            "name": "Suit Odalar",
             "beds": "1 Çift + 1 Tek Yatak",
             "description": "Suit odamızda geniş alan ve lüks konforu bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
-            "longDescription": "Suit odamız 35 metrekare modern alan sunar. Çift ve tek yatak seçeneği ile geniş yaşam alanı, aile veya arkadaş grubu için unutulmaz bir konaklama deneyimi. Tüm konfor olanaklarıyla hizmetinizde."
+            "longDescription": "Gökyüzü Kadar Geniş, Ayrıcalık Kadar Özel\nGeniş yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir.\nAileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar, hem iş hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi, burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür.\nBu sadece bir suit değil; gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
         }
     },
     "sustainability": {

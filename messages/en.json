@@ -48,16 +48,16 @@
             "breakfast": "Open Buffet Breakfast"
         },
         "deluxeTwinGardenView": {
-            "name": "Comfortable Double Room",
+            "name": "Comfortable Double Standard Room",
             "beds": "1 Double Bed",
             "description": "Enjoy a comfortable stay in our garden view double room. Modern design and comfort combined.",
-            "longDescription": "Our garden view double room offers 30 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
+            "longDescription": "A Special View Where Aviation and Nature Meet\nExperience the accommodation closest to the sky. These rooms, specially designed for civil and professional aviators, create an ideal atmosphere for focusing before flight, resting after flight, and renewing amidst nature. With modern lines, ergonomic details and the privilege of a quiet rural setting, every moment spent here becomes a true privilege.\nStaying at AirParkHotel is not just staying in a room; it is living an experience at the heart of aviation, next to the sky."
         },
         "deluxeTwinLakeView": {
-            "name": "Comfortable Double Room – Lake View",
+            "name": "APRON & LAKE VIEW ROOMS",
             "beds": "1 Double Bed",
-            "description": "Enjoy a comfortable stay in our lake view double room. Modern design and comfort combined.",
-            "longDescription": "Our lake view double room offers 30 square meters of thoughtfully designed space with a double bed, modern bathroom and all essential amenities. Every detail has been carefully considered for a comfortable and pleasant stay. Ideal for couples."
+            "description": "Apron and Lake View Refined Comfort",
+            "longDescription": "The calm surface of the lake and the dynamic energy of the runway… In these special view rooms, the silence of nature and the excitement of aviation meet in perfect balance. The lake where optimist and radio-controlled boats glide offers a unique atmosphere that restores your mind, while the apron view lets you feel the living spirit of aviation at every moment. These rooms offer not just comfort; but inspiration, peace and a sense of belonging."
         },
         "deluxeFrenchGardenView": {
             "name": "Triple Room",
@@ -72,10 +72,10 @@
             "longDescription": "Our lake view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
         },
         "deluxeFrenchCity": {
-            "name": "Suite Room",
+            "name": "Suite Rooms",
             "beds": "1 Double + 1 Single Bed",
             "description": "Experience spacious luxury in our suite. Thoughtful design details await you.",
-            "longDescription": "Our suite offers 35 square meters of contemporary space. With double and single bed options and a generous living area, it is ideal for families or groups of friends. A memorable stay with all the comforts."
+            "longDescription": "As Spacious as the Sky, As Special as Privilege\nSpacious living areas, sophisticated design and superior comfort… AirParkHotel suite rooms bring together the prestige of aviation and the elegance of modern living.\nThese special spaces, ideal for families, groups of friends and extended stays, offer a perfect environment for both work and rest. The combination of quiet nature, lake view and aviation atmosphere transforms your time here into an unforgettable experience.\nThis is not just a suite; it is a privileged living space next to the sky."
         }
     },
     "sustainability": {

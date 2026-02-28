@@ -98,9 +98,9 @@ export default function RoomPage({ params }: RoomPageProps) {
                 <p className="text-stone-700 leading-relaxed text-lg relative z-10">
                   {t(`${room.key}.longDescription`)}
                 </p>
-                <p className="mt-4 text-stone-700 leading-relaxed relative z-10">
+                {/* <p className="mt-4 text-stone-700 leading-relaxed relative z-10">
                   {t(`${room.key}.description`)}
-                </p>
+                </p> */}
               </div>
 
               {/* Amenities Grid */}
@@ -230,14 +230,6 @@ export default function RoomPage({ params }: RoomPageProps) {
                     />
                   </div>
                 ))}
-                {/* Placeholder for more images */}
-                {room.images.length > 3 && (
-                  <div className="aspect-square rounded-2xl overflow-hidden cursor-pointer hover:ring-2 ring-brand-primary transition-all bg-stone-300/50 flex items-center justify-center group/more">
-                    <span className="text-sm font-bold text-stone-500 group-hover/more:scale-110 transition-transform">
-                      +{room.images.length - 3} {t('moreImages')}
-                    </span>
-                  </div>
-                )}
               </div>
             </div>
           </div>
