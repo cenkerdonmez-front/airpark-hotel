@@ -16,8 +16,31 @@ export async function generateMetadata() {
   const messages = await getMessages();
   const locale = await getLocale();
   return {
-    title: 'AirParkHotel | Utilitarian Luxury',
-    description: 'Experience luxury and comfort at AirParkHotel',
+    title: 'AirParkHotel | İşlevsel Lüks ve Konfor',
+    description:
+      'AirParkHotel\'de işlevsel lüks, konforlu odalar, modern olanaklar ve havaalanına yakın ayrıcalıklı bir konaklama deneyimi yaşayın.',
+    keywords: [
+      'AirParkHotel',
+      'otel',
+      'havaalanı oteli',
+      'iş seyahati',
+      'konforlu konaklama',
+      'lüks otel',
+      'İstanbul otel',
+    ],
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://airparkhotel.com'),
+    openGraph: {
+      title: 'AirParkHotel | İşlevsel Lüks ve Konfor',
+      description:
+        'AirParkHotel\'de işlevsel lüks, konforlu odalar, modern olanaklar ve havaalanına yakın ayrıcalıklı bir konaklama deneyimi yaşayın.',
+      url: '/',
+      siteName: 'AirParkHotel',
+      locale: 'tr_TR',
+      type: 'website',
+    },
+    alternates: {
+      canonical: '/',
+    },
     icons: {
       icon: [
         { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
