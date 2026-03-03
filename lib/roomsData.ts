@@ -56,10 +56,10 @@ export const rooms: Room[] = [
     images: ['/rooms/3/1.jpg', '/rooms/3/2.jpg', '/rooms/3/3.jpg', '/rooms/3/4.jpg', '/rooms/3/5.jpg', '/rooms/3/6.jpg'],
     size: [45, 60],
     capacity: {
-      adults: 3,
+      adults: 2,
       children: 0,
     },
-    beds: '1 Double + 1 Single Bed',
+    beds: '1 Double Bed',
     features: ['airConditioningHeating', 'tv43', 'minibar', 'teaCoffee', 'babyCrib', 'shower', 'slippers', 'hairdryer', 'wifi', 'parking', 'breakfast'],
   },
 ];
