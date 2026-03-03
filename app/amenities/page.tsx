@@ -15,7 +15,7 @@ export default function AmenitiesPage() {
   const t = useTranslations('amenitiesPage');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">

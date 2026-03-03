@@ -8,7 +8,7 @@ export default function DisclosurePage() {
   const t = useTranslations('disclosurePage');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">

@@ -13,7 +13,7 @@ export default function ContactPage() {
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}
@@ -73,13 +73,13 @@ export default function ContactPage() {
             rel="noopener noreferrer"
             className="block rounded-2xl overflow-hidden border border-brand-primary/10 shadow-lg bg-brand-beige/20 group"
           >
-            <div className="relative w-full aspect-[4/3] ">
+            <div className="relative w-full ">
               <Image
                 src="/contact/map.jpeg"
                 alt={t('mapTitle')}
                 height={1600}
                 width={1600}
-                className="object-cover scale-125 "
+                className="object-contain  "
         
               />
             </div>

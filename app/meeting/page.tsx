@@ -8,7 +8,7 @@ export default function MeetingPage() {
   const locale = useLocale();
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}

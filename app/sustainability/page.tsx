@@ -15,7 +15,7 @@ export default function SustainabilityPage() {
   const pdfPath = SUSTAINABILITY_PDF_BY_LOCALE[locale] ?? SUSTAINABILITY_PDF_BY_LOCALE.en;
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       {/* Hero */}

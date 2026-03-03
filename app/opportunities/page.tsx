@@ -6,7 +6,7 @@ export default function OpportunitiesPage() {
   const t = useTranslations('opportunitiesPage');
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       <section className="bg-gradient-to-br from-brand-primary to-brand-primary/80 text-white py-20">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Navigation } from '@/components/Navigation';
@@ -14,6 +14,7 @@ import { Button } from '@/components/ui/button';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const GALLERY_IMAGES = Array.from({ length: 29 }, (_, i) => `/gallery/${i + 1}.jpg`);
+const PAGE_SIZE = 8;
 
 const imageButtonClass = 'cursor-pointer transition-transform duration-300 hover:scale-[1.03]';
 
@@ -22,6 +23,41 @@ export default function GalleryPage() {
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const isOpen = lightboxIndex !== null;
 
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (visibleCount >= GALLERY_IMAGES.length) return;
+
+    if (observerRef.current) {
+      observerRef.current.disconnect();
+    }
+
+    observerRef.current = new IntersectionObserver((entries) => {
+      const [entry] = entries;
+      if (!entry?.isIntersecting) return;
+
+      setVisibleCount((current) => {
+        const next = Math.min(current + PAGE_SIZE, GALLERY_IMAGES.length);
+        if (next >= GALLERY_IMAGES.length && observerRef.current && loadMoreRef.current) {
+          observerRef.current.unobserve(loadMoreRef.current);
+        }
+        return next;
+      });
+    });
+
+    if (loadMoreRef.current) {
+      observerRef.current.observe(loadMoreRef.current);
+    }
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, [visibleCount]);
+
   const goPrev = () => setLightboxIndex((i) => (i === null ? 0 : (i - 1 + GALLERY_IMAGES.length) % GALLERY_IMAGES.length));
   const goNext = () => setLightboxIndex((i) => (i === null ? 0 : (i + 1) % GALLERY_IMAGES.length));
 
@@ -29,7 +65,7 @@ export default function GalleryPage() {
   const closeLightbox = () => setLightboxIndex(null);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}
@@ -50,7 +86,7 @@ export default function GalleryPage() {
       {/* Classic grid */}
       <section className="max-w-7xl mx-auto px-6 py-16 !bg-brand-beige/30">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-          {GALLERY_IMAGES.map((src, i) => (
+          {GALLERY_IMAGES.slice(0, visibleCount).map((src, i) => (
             <button
               key={src}
               type="button"
@@ -66,6 +102,12 @@ export default function GalleryPage() {
               />
             </button>
           ))}
+        </div>
+        <div
+          ref={loadMoreRef}
+          className="h-8 w-full flex items-center justify-center text-sm text-brand-primary/60"
+        >
+          {visibleCount < GALLERY_IMAGES.length && 'Loading more images...'}
         </div>
       </section>
 

@@ -38,7 +38,7 @@ export default function BookingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       <Navigation />
       
       {/* Hero Section */}
