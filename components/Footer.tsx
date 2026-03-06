@@ -70,15 +70,6 @@ export function Footer() {
             <Link className="hover:text-white transition-colors" href="/privacy">
               {t('legal.privacy')}
             </Link>
-            <Link className="hover:text-white transition-colors" href="/sales">
-              {t('legal.sales')}
-            </Link>
-            <Link className="hover:text-white transition-colors" href="/disclosure">
-              {t('legal.disclosure')}
-            </Link>
-            <Link className="hover:text-white transition-colors" href="/cancellation">
-              {t('legal.cancellation')}
-            </Link>
           </div>
           <div className="text-center md:text-right flex items-center justify-center md:justify-end gap-1.5">
             <span>{t('legal.copyrightBefore')}</span>

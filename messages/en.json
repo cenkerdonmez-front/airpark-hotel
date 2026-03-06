@@ -123,7 +123,7 @@
         },
         "contact": {
             "title": "Contact",
-            "phone": "+90 222 724 30 40",
+            "phone": "+90 533 700 72 22",
             "phoneLabel": "Phone",
             "email": "info@airparkhotel.com",
             "emailLabel": "Email",
@@ -139,10 +139,7 @@
         "legal": {
             "sustainability": "Sustainability",
             "privacy": "Privacy",
-            "sales": "Distance Sales",
-            "disclosure": "Disclosure Text",
             "amenities": "Amenities",
-            "cancellation": "Cancellation Policy",
             "copyrightBefore": "© 2026 AirParkHotel",
             "copyrightAfter": "ALL RIGHTS RESERVED."
         }
@@ -160,37 +157,7 @@
         "s4Title": "Your Rights",
         "s4Content": "You have the right to access, correct, delete or restrict the processing of your data, and to object to processing. You may also have the right to data portability and to lodge a complaint with a supervisory authority. To exercise these rights, please contact us using the details in the footer.",
         "s5Title": "Contact",
-        "s5Content": "For any questions about this Privacy Policy or your personal data, please contact us at info@airparkhotel.com or call +90 222 724 30 40."
-    },
-    "salesPage": {
-        "title": "Distance Sales Agreement",
-        "lastUpdated": "Last updated",
-        "intro": "This Distance Sales Agreement applies to accommodation and related services you purchase from AirParkHotel via our website, phone or other remote means.",
-        "s1Title": "Parties",
-        "s1Content": "Seller: AirParkHotel, Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir. Buyer: the guest who makes the reservation.",
-        "s2Title": "Subject & Conclusion of Contract",
-        "s2Content": "The subject of the contract is the accommodation and related services described at the time of booking. The contract is concluded when the buyer completes the reservation and receives confirmation. Prices and payment terms are as stated during the booking process.",
-        "s3Title": "Right of Withdrawal",
-        "s3Content": "According to applicable law, the right of withdrawal may not apply to accommodation services for a specific date or period. Cancellation conditions stated at the time of booking apply. We recommend that you read the cancellation policy before confirming your reservation.",
-        "s4Title": "Complaints & Disputes",
-        "s4Content": "Any complaint regarding the service must be reported to the hotel as soon as possible. For disputes, the courts and enforcement offices of the seller's location are authorised. Consumer rights under local law remain reserved.",
-        "s5Title": "Contact",
-        "s5Content": "For questions about reservations or this agreement: info@airparkhotel.com, +90 222 724 30 40."
-    },
-    "disclosurePage": {
-        "title": "Disclosure Text",
-        "lastUpdated": "Last updated",
-        "intro": "As AirParkHotel, we process your personal data in the capacity of data controller within the framework of the Turkish Personal Data Protection Law (KVKK) and applicable legislation. This text is intended to inform you about the processing of your personal data.",
-        "s1Title": "Data Controller",
-        "s1Content": "AirParkHotel, located at Sivrihisar Havacılık Merkezi, Yeşilköy, 26600 Sivrihisar/Eskişehir, is the data controller for the personal data you provide through our website, reservation system or during your stay.",
-        "s2Title": "Purposes of Processing",
-        "s2Content": "Your personal data may be processed for the purposes of performing the accommodation contract, providing services, managing reservations, fulfilling legal obligations, ensuring security and, subject to your consent, carrying out marketing and communication activities.",
-        "s3Title": "Legal Grounds",
-        "s3Content": "Processing is based on the performance of the contract, legal obligation, legitimate interest of the data controller or your explicit consent, depending on the purpose of processing.",
-        "s4Title": "Rights of the Data Subject",
-        "s4Content": "Under KVKK Article 11 you have the right to learn whether your data is processed, to request correction or deletion, to object to processing and to lodge a complaint with the Personal Data Protection Board. You may submit your requests to us in writing or by other methods prescribed by the Board.",
-        "s5Title": "Contact",
-        "s5Content": "For requests regarding your personal data: info@airparkhotel.com or our address above. We will respond within the periods stipulated by law."
+        "s5Content": "For any questions about this Privacy Policy or your personal data, please contact us at info@airparkhotel.com or call +90 533 700 72 22."
     },
     "amenitiesPage": {
         "title": "Hotel Amenities & Services",
@@ -212,22 +179,6 @@
             "title": "Open Buffet Breakfast",
             "description": "Start your day with our open buffet breakfast. A wide selection of hot and cold items, pastries, and beverages is included for a great start to the day."
         }
-    },
-    "cancellationPage": {
-        "title": "Cancellation Policy",
-        "subtitle": "Reservation Terms",
-        "lastUpdated": "Last updated",
-        "intro": "Please read our cancellation policy below. We recommend booking with peace of mind and contacting us if your plans change.",
-        "s1Title": "Free Cancellation",
-        "s1Content": "You may cancel your reservation free of charge until 14 days before the check-in date. Cancellations must be made by the same channel used for booking (e.g. phone or email to the hotel) and confirmed by us.",
-        "s2Title": "Late Cancellation",
-        "s2Content": "If you cancel between 14 days and 2 days before check-in, the first night will be charged. Cancellations made within 2 days of check-in or after the scheduled check-in time may result in a charge of the full stay.",
-        "s3Title": "No-Show",
-        "s3Content": "If you do not arrive and do not cancel your reservation (no-show), the full amount of the reservation may be charged.",
-        "s4Title": "Modifications",
-        "s4Content": "Changes to dates or room type are subject to availability and rate differences. Please contact us as soon as possible to modify your booking.",
-        "s5Title": "Contact",
-        "s5Content": "For cancellations or questions: info@airparkhotel.com or +90 222 724 30 40. We will confirm your cancellation in writing (e.g. by email) upon request."
     },
     "common": {
         "squareMeters": "m²",

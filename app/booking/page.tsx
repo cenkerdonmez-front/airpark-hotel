@@ -259,7 +259,7 @@ export default function BookingPage() {
                       {t('contact.phone')}
                     </h3>
                     <a 
-                      href="tel:+902222110300" 
+                      href={`tel:${tFooter('contact.phone').replace(/\s/g, '')}`} 
                       className="text-brand-primary hover:text-brand-primary/80 transition-colors"
                     >
                       {tFooter('contact.phone')}

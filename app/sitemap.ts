@@ -9,13 +9,10 @@ const staticRoutes = [
   '/gallery',
   '/amenities',
   '/meeting',
-  '/sales',
   '/sustainability',
   '/booking',
   '/contact',
   '/privacy',
-  '/disclosure',
-  '/cancellation',
   '/opportunities',
 ];
 
