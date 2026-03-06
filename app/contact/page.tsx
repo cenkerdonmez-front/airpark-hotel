@@ -33,32 +33,48 @@ export default function ContactPage() {
 
       {/* Contact info at start of page */}
       <section id="contact" className="py-20 md:py-28 px-6 border-t border-brand-primary/10 bg-brand-beige/30 ">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl text-brand-primary text-center mb-12 md:mb-16">
             {tFooter('contact.title')}
           </h2>
-          <div className="grid sm:grid-cols-2 gap-6 md:gap-8">
-            <div className="group flex flex-col items-center justify-center p-8 md:p-10 rounded-2xl bg-white border-2 border-brand-primary/10 shadow-md hover:shadow-xl hover:border-brand-primary/25 transition-all duration-300">
-              <span className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-brand-primary/10 text-brand-primary mb-4 group-hover:bg-brand-primary/20 transition-colors">
-                <Phone className="w-7 h-7 md:w-8 md:h-8" />
-              </span>
-              <span className="text-sm font-semibold text-brand-primary/70 uppercase tracking-wider mb-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a
+              href={GOOGLE_MAPS_DIRECTIONS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300"
+            >
+              <MapPin className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
+                {tFooter('contact.addressLabel')}
+              </h4>
+              <p className="text-gray-500 leading-relaxed whitespace-pre-line">
+                {tFooter('contact.address')}
+              </p>
+            </a>
+            <div className="group bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
+              <Phone className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
                 {tFooter('contact.phoneLabel')}
-              </span>
-              <span className="font-display text-xl md:text-2xl text-brand-primary text-center font-semibold">
+              </h4>
+              <a
+                href={`tel:${tFooter('contact.phone').replace(/\s/g, '')}`}
+                className="text-gray-500 text-xl hover:text-gray-600 transition-colors block"
+              >
                 {tFooter('contact.phone')}
-              </span>
+              </a>
             </div>
-            <div className="group flex flex-col items-center justify-center p-8 md:p-10 rounded-2xl bg-white border-2 border-brand-primary/10 shadow-md hover:shadow-xl hover:border-brand-primary/25 transition-all duration-300">
-              <span className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-full bg-brand-primary/10 text-brand-primary mb-4 group-hover:bg-brand-primary/20 transition-colors">
-                <Mail className="w-7 h-7 md:w-8 md:h-8" />
-              </span>
-              <span className="text-sm font-semibold text-brand-primary/70 uppercase tracking-wider mb-2">
+            <div className="group bg-white p-8 rounded-2xl border border-gray-100 shadow-xl transition-all hover:border-gray-300">
+              <Mail className="text-gray-400 text-3xl mb-4 group-hover:scale-110 transition-transform" />
+              <h4 className="text-[10px]  text-gray-500 tracking-widest uppercase mb-2">
                 {tFooter('contact.emailLabel')}
-              </span>
-              <span className="font-display text-lg md:text-xl text-brand-primary text-center font-semibold break-all">
+              </h4>
+              <a
+                href={`mailto:${tFooter('contact.email')}`}
+                className="text-gray-500  text-lg hover:text-gray-600 transition-colors block break-all"
+              >
                 {tFooter('contact.email')}
-              </span>
+              </a>
             </div>
           </div>
         </div>

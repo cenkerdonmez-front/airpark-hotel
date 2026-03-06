@@ -126,7 +126,9 @@
             "phone": "+90 222 724 30 40",
             "phoneLabel": "Telefon",
             "email": "info@airparkhotel.com",
-            "emailLabel": "EMAIL"
+            "emailLabel": "EMAIL",
+            "addressLabel": "Adres",
+            "address": "Sivrihisar Havacılık Merkezi, Yeşilköy\n26600 Sivrihisar/Eskişehir"
         },
         "social": {
             "title": "Takip Edin"
