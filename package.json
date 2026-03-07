@@ -16,7 +16,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "^1.16.2",
+    "@opennextjs/cloudflare": "^1.17.1",
     "@radix-ui/react-slot": "^1.2.4",
     "@swc/helpers": "^0.5.18",
     "class-variance-authority": "^0.7.1",
