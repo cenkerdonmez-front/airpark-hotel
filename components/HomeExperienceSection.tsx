@@ -8,7 +8,7 @@ export function HomeExperienceSection() {
   const t = useTranslations('homeExperience');
 
   return (
-    <section className="bg-brand-beige/30 border-y border-brand-primary/10 py-20">
+    <section className="bg-brand-beige/30 border-y border-brand-primary/10 pt-4 pb-12">
       <div className="max-w-6xl mx-auto px-6">
         <AnimateOnScroll variant="scaleReveal" className="text-center mb-16">
           <span className="text-brand-primary/60 font-bold tracking-[0.2em] uppercase text-[10px] mb-2 block">

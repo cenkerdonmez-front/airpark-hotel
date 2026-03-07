@@ -16,7 +16,7 @@
     "hero": {
         "title": "AirParkHotel",
         "tagline": "Pistin Yanında, Gökyüzüne Komşu",
-        "subtitle": "Havacılık, doğa ve sürdürülebilirliğin buluştuğu benzersiz konaklama deneyimi.",
+        "subtitle": "Havacılık, doğa ve sürdürülebilirliğin buluştuğu benzersiz konaklama deneyimi",
         "cta": "Rezervasyon Yap",
         "stats": {
             "rooms": "40 Oda & Süit",
@@ -58,33 +58,27 @@
         },
         "deluxeTwinGardenView": {
             "name": "Yeni Menekşe Tipi Odalar (Bahçe & Gölet Manzaralı Odalar)",
-            "beds": "1 Adet King Size Yatak",
+            "beds": "1 Adet Size Yatak",
             "description": "Bahçe ve gölet manzaralı çift kişilik odalarımızda sessiz kırsal çevrenin ayrıcalığı ve göletin dinginliği ile rahat ve huzurlu bir konaklama.",
-            "longDescription": "Havacılık ve doğanın buluştuğu özel manzara… Gökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler, ergonomik detaylar ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir ayrıcalığa dönüşür. AirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır."
+            "longDescription": "Havacılık ve doğanın buluştuğu özel manzara… Gökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler ve ergonomik detaylar ile burada geçirilen her an gerçek bir ayrıcalığa dönüşür. AirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır."
         },
         "deluxeTwinLakeView": {
             "name": "Mor Menekşe Tipi Odalar (Apron & Gölet Manzaralı Odalar)",
-            "beds": "1 Adet King Size Yatak",
+            "beds": "1 Adet Size Yatak",
             "description": "Apron ve gölet manzaralı çift kişilik odalarımızda havacılığın ruhu ve pistin enerjisi ile doğanın huzuru aynı pencerede yer alıyor.",
             "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar sadece konfor değil ilham, huzur ve aidiyet duygusu sunar."
         },
         "deluxeFrenchGardenView": {
             "name": "Nu.D-36 Tipi Odalar (Bahçe Manzaralı Üç Kişilik Odalar)",
             "beds": "1 Çift + 1 Tek Kişilik Yatak",
-            "description": "Bahçe manzaralı üç kişilik modern tasarımlı odalarımızda huzur ve konforu keşfedin. Aileler ve arkadaş grupları için ideal.",
-            "longDescription": "Bahçe manzaralı üç kişilik modern tasarımlı odalarımızda huzur ve konforu keşfedin. Aileler ve arkadaş grupları için ideal."
-        },
-        "deluxeFrenchLakeView": {
-            "name": "3 Kişilik Oda – Göl Manzarası",
-            "beds": "1 Çift + 1 Tek Kişilik Yatak",
-            "description": "Göl manzaralı üç kişilik odamızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
-            "longDescription": "Göl manzaralı 3 kişilik odamız 30 metrekare rafine yaşam alanı sunar. 1 çift kişilik ve 1 tek kişilik yatak, sofistike iç tasarım ile üç misafire kadar konforlu konaklama."
+            "description": "Bahçe manzaralı üç kişilik odalarımızda huzur ve konforu keşfedin. Aile veya arkadaş grubu için ideal.",
+            "longDescription": "Bahçe manzaralı üç kişilik odalarımız sofistike iç tasarımı ve rafine yaşam alanı ile konforlu bir konaklama sunarken, modern çizgileri, ergonomik detayları ve sessiz kırsal çevrenin ayrıcalığıyla, burada geçirilen her an gerçek bir huzura dönüşür."
         },
         "deluxeFrenchCity": {
             "name": "Vecihi XIV Tipi Odalar (Suit Odalar)",
-            "beds": "1 Adet King Size Yatak",
+            "beds": "1 Adet Size Yatak",
             "description": "Suit odalarımızda geniş alanda lüks konforunu havacılığın prestiji ve modern yaşamın zarafeti ile bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
-            "longDescription": "Gökyüzünde yaşıyormuş hissini veren, ayrıcalıklı özel yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir. Aileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar hem iş, hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi, burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür. Bu sadece bir suit değil; gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
+            "longDescription": "Gökyüzünde yaşıyormuş hissini veren, ayrıcalıklı özel yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir. Aileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar hem iş, hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür. Bu sadece bir suit değil gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
         }
     },
     "sustainability": {
@@ -278,7 +272,7 @@
         "planeSectionTitle": "HAVADAN Ulaşım",
         "planeSectionSubtitle": "S.H.M. / Havalimanı Bilgileri",
         "shmCoordinates": "S.H.M. Koordinatları",
-        "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50'",
+        "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50\"",
         "tower": "Artan Kule",
         "towerValue": "131,625 MHz",
         "runwayHeadings": "Pist Yönleri",
@@ -304,9 +298,9 @@
         "parkingWarning": "Gösteri emniyeti sebebiyle, yol üzerinde araç parkına izin verilmeyecektir."
     },
     "aboutPage": {
-        "title": "AirParkHotel Hakkında",
-        "subtitle": "Kullanışlı Lüks",
-        "description": "Hikayemizi, felsefemizi ve her misafir için yaratmak istediğimiz deneyimi keşfedin.",
+        "title": "AirParkHotel Hikâyesi",
+        "subtitle": "Gökyüzüne En Yakın Konaklama",
+        "description": "Hikâyemizi, ruhumuzu ve her misafir için yarattığımız eşsiz deneyimi keşfedin.",
         "paragraph1": "AirParkHotel, havacılık kültürü ile rafine konforun buluştuğu çağdaş bir konaklama noktası olarak tasarlandı. Sivrihisar Havacılık Merkezi’nin hemen yanında yer alan otelimiz, pisti çevreleyen dinamizm ile manzaranın dinginliğini bir arada sunan benzersiz bir deneyim sağlar.",
         "paragraph2": "Odalarımız ve süitlerimiz, işlevsel şıklık anlayışıyla oluşturuldu: İhtiyacınız olan her şey, abartıdan uzak, özenle seçilmiş detaylarla bir araya getirildi. Kullandığımız malzemelerden sunduğumuz hizmetlere kadar her adımda kaliteyi, pratikliği ve sıcak bir karşılama hissini ön planda tutuyoruz.",
         "paragraph3": "İster kısa bir mola için, ister hafta sonu kaçamağı ya da özel bir etkinlik için bizde konaklayın; ekibimiz konaklamanızın zahmetsiz ve unutulmaz geçmesi için çalışır. Sizi AirPark Hotel’de ağırlamaktan mutluluk duyarız."

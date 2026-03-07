@@ -33,7 +33,16 @@ export function RoomCard({ slug, name, description, image, size }: RoomCardProps
         </div>
       </div>
       <div className="p-5 flex-grow flex flex-col">
-        <h3 className="text-lg font-bold text-brand-primary mb-2">{name}</h3>
+        <h3 className="text-lg font-bold text-brand-primary mb-2 leading-tight">
+          {name.includes('(') ? (
+            <>
+              <span>{name.substring(0, name.indexOf('(')).trim()}</span>
+              <span className="block text-xs font-semibold text-brand-primary/60 mt-0.5">
+                {name.substring(name.indexOf('('))}
+              </span>
+            </>
+          ) : name}
+        </h3>
         <p className="text-gray-600 text-sm leading-snug mb-4 line-clamp-3">
           {description}
         </p>

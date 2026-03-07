@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useEffect, type ReactNode } from 'react';
+import { cn } from '@/lib/utils';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -129,7 +130,7 @@ export function AnimateOnScroll({
   }, [variant, delay, stagger]);
 
   return (
-    <div ref={ref} className={className}>
+    <div ref={ref} className={cn(className, (variant === 'slideFromLeft' || variant === 'slideFromRight') && 'overflow-x-hidden')}>
       {children}
     </div>
   );

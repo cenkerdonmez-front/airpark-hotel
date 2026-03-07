@@ -70,9 +70,9 @@ export default async function RootLayout({
   if (!messages) notFound();
   const locale = await getLocale();
   return (
-    <html lang={locale} className="scroll-smooth">
+    <html lang={locale} className="scroll-smooth overflow-x-hidden">
       <body
-        className={`${inter.variable} font-body antialiased bg-background-cream text-text-dark`}
+        className={`${inter.variable} font-body antialiased bg-background-cream text-text-dark overflow-x-hidden`}
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
           {children}

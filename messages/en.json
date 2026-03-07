@@ -16,7 +16,7 @@
     "hero": {
         "title": "AirParkHotel",
         "tagline": "Next to the Runway, Neighbour to the Sky",
-        "subtitle": "A unique accommodation experience where aviation, nature and sustainability meet.",
+        "subtitle": "A unique accommodation experience where aviation, nature and sustainability meet",
         "cta": "Make a Reservation",
         "stats": {
             "rooms": "40 Rooms & Suites",
@@ -70,12 +70,6 @@
         },
         "deluxeFrenchGardenView": {
             "name": "Nu.D-36 Type Rooms (Garden View Triple Rooms)",
-            "beds": "1 Double + 1 Single Bed",
-            "description": "Discover peace and comfort in our garden view triple rooms with modern design. Ideal for families and groups of friends.",
-            "longDescription": "Discover peace and comfort in our garden view triple rooms with modern design. Ideal for families and groups of friends."
-        },
-        "deluxeFrenchLakeView": {
-            "name": "Triple Room – Lake View",
             "beds": "1 Double + 1 Single Bed",
             "description": "Discover comfort in our lake view triple room, accommodating up to three guests. Ideal for families or friends.",
             "longDescription": "Our lake view triple room offers 30 square meters of refined living space. With one double and one single bed and sophisticated interior design, it provides a comfortable stay for up to three guests."
@@ -305,8 +299,8 @@
     },
     "aboutPage": {
         "title": "About AirParkHotel",
-        "subtitle": "Utilitarian Luxury",
-        "description": "Learn more about our story, philosophy and the experience we aim to create for every guest.",
+        "subtitle": "Closest Accommodation to the Sky",
+        "description": "Discover our story, our spirit and the one-of-a-kind experience we create for every guest.",
         "paragraph1": "AirParkHotel is designed as a contemporary retreat where aviation culture and refined comfort meet. Located next to Sivrihisar Aviation Center, our hotel offers guests a unique experience surrounded by the dynamism of the runway and the calm of the landscape.",
         "paragraph2": "Our rooms and suites are created with a focus on functional elegance: everything you need, thoughtfully curated, without excess. From the materials we choose to the services we provide, we prioritise quality, practicality and a warm, welcoming atmosphere.",
         "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirParkHotel."

@@ -128,9 +128,11 @@
   }
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
   .hero-overlay {
     background: linear-gradient(to bottom, rgba(1, 92, 84, 0.4), rgba(1, 92, 84, 0.7));

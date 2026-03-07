@@ -89,7 +89,20 @@ export default function RoomPage({ params }: RoomPageProps) {
               {/* Title Section */}
               <div>
                 <h1 className="text-2xl text-stone-900 mb-2 leading-tight">
-                  {t(`${room.key}.name`)}
+                  {(() => {
+                    const name = t(`${room.key}.name`);
+                    if (name.includes('(')) {
+                      return (
+                        <>
+                          <span>{name.substring(0, name.indexOf('(')).trim()}</span>
+                          <span className="block text-base font-normal text-stone-500 mt-1">
+                            {name.substring(name.indexOf('('))}
+                          </span>
+                        </>
+                      );
+                    }
+                    return name;
+                  })()}
                 </h1>
               </div>
 
