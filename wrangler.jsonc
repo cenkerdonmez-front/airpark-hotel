@@ -16,9 +16,6 @@
       "service": "airpark-hotel"
     }
   ],
-  "images": {
-    "binding": "IMAGES"
-  },
     "observability": {
       "logs": {
         "enabled": true,
