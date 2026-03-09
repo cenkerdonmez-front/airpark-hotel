@@ -54,10 +54,8 @@ export default function AboutPage() {
                 {isTr ? (
                   <>
                     <p>Her havaalanı bir hikaye anlatır.</p>
-                    <p>
-                      Kalkışa hazırlanan uçakların sesi, kuleyle yapılan konuşmalar, pist ışıkları ve her bir uçuşun heyecanı.
-                      Ve bir efsane adamın hayalleri… Atasının yolunda ülkesine ve milletine karşı hissettiği görev bilinci…
-                    </p>
+                    <p>Kalkışa hazırlanan uçakların sesi, kuleyle yapılan konuşmalar, pist ışıkları ve her bir uçuşun heyecanı.</p>
+                    <p>Ve bir efsane adamın hayalleri… Atasının yolunda ülkesine ve milletine karşı hissettiği görev bilinci…</p>
                     <p>AirParkHotel işte bu hikayenin tam içinde doğdu.</p>
                     <p>
                       Havacılık dünyasının dinamizmini ve gökyüzünün özgürlüğünü yakından hissedebileceğiniz bir yerde,
@@ -77,11 +75,8 @@ export default function AboutPage() {
                 ) : (
                   <>
                     <p>Every airport tells a story.</p>
-                    <p>
-                      The sound of aircraft preparing for take-off, radio calls with the tower, runway lights and the
-                      excitement of every flight. And the dreams of a legendary man… A sense of duty towards his country
-                      and his people, following in the footsteps of his ancestor…
-                    </p>
+                    <p>The sound of aircraft preparing for take-off, radio calls with the tower, runway lights and the excitement of every flight.</p>
+                    <p>And the dreams of a legendary man… A sense of duty towards his country and his people, following in the footsteps of his ancestor…</p>
                     <p>AirParkHotel was born right at the heart of this story.</p>
                     <p>
                       It was founded in a place where you can feel the dynamism of the aviation world and the freedom

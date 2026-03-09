@@ -26,7 +26,7 @@
     },
     "rooms": {
         "title": "Odalar & Süitler",
-        "subtitle": "Seçkin Konaklama",
+        "subtitle": "Gökyüzüne En Yakın Konaklama",
         "heroDescription": "Özenle tasarlanmış oda ve süitlerimizi keşfedin, her biri unutulmaz bir konaklama için premium konfor sunuyor.",
         "viewAll": "Tümünü Gör",
         "detailsButton": "Detaylı İncele",
@@ -272,7 +272,7 @@
         "planeSectionTitle": "HAVADAN Ulaşım",
         "planeSectionSubtitle": "S.H.M. / Havalimanı Bilgileri",
         "shmCoordinates": "S.H.M. Koordinatları",
-        "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50\"",
+        "shmCoordinatesValue": "N 39°17'59.29\"\nE 31°29'38.50\"",
         "tower": "Artan Kule",
         "towerValue": "131,625 MHz",
         "runwayHeadings": "Pist Yönleri",

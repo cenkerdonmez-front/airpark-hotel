@@ -26,7 +26,7 @@
     },
     "rooms": {
         "title": "Rooms & Suites",
-        "subtitle": "Premium Accommodation",
+        "subtitle": "Closest Accommodation to the Sky",
         "heroDescription": "Discover our selection of carefully designed rooms and suites, each offering premium comfort for an unforgettable stay.",
         "viewAll": "View All",
         "detailsButton": "View Details",
@@ -272,7 +272,7 @@
         "planeSectionTitle": "FROM THE AIR Transport",
         "planeSectionSubtitle": "S.H.M. / Airport Info",
         "shmCoordinates": "S.H.M. Coordinates",
-        "shmCoordinatesValue": "N 39°17'59.29\" E 31°29'38.50'",
+        "shmCoordinatesValue": "N 39°17'59.29\"\nE 31°29'38.50\"",
         "tower": "Tower",
         "towerValue": "131.625 MHz",
         "runwayHeadings": "Runway Headings",

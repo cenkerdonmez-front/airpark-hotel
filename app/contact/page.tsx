@@ -102,7 +102,7 @@ export default function ContactPage() {
                   {t('planeSectionTitle')}
                 </h4>
                 <div className="space-y-2 font-display  text-brand-primary">
-                  <p><span className="font-semibold">{t('shmCoordinates')}</span><br />{t('shmCoordinatesValue')}</p>
+                  <p><span className="font-semibold">{t('shmCoordinates')}</span><br /><span className="whitespace-pre-line">{t('shmCoordinatesValue')}</span></p>
                   <p><span className="font-semibold">{t('tower')}</span><br />{t('towerValue')}</p>
                   <p><span className="font-semibold">{t('runwayHeadings')}</span><br />{t('runwayHeadingsValue')}</p>
                   <p><span className="font-semibold">{t('runwayLength')}</span><br />{t('runwayLengthValue')}</p>
