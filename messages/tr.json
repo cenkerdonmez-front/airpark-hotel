@@ -58,13 +58,13 @@
         },
         "deluxeTwinGardenView": {
             "name": "Yeni Menekşe Tipi Odalar (Bahçe & Gölet Manzaralı Odalar)",
-            "beds": "1 Adet Size Yatak",
+            "beds": "1 Adet King Size Yatak",
             "description": "Bahçe ve gölet manzaralı çift kişilik odalarımızda sessiz kırsal çevrenin ayrıcalığı ve göletin dinginliği ile rahat ve huzurlu bir konaklama.",
             "longDescription": "Havacılık ve doğanın buluştuğu özel manzara… Gökyüzüne en yakın konaklama deneyimini yaşayın. Sivil ve profesyonel havacılar için özel olarak tasarlanan bu odalar, uçuş öncesi odaklanmak, uçuş sonrası dinlenmek ve doğayla iç içe yenilenmek için ideal bir atmosfer yaratır. Modern çizgiler ve ergonomik detaylar ile burada geçirilen her an gerçek bir ayrıcalığa dönüşür. AirParkHotel'de konaklamak, sadece bir odada kalmak değil; havacılığın kalbinde, gökyüzüne komşu bir yaşam deneyimi yaşamaktır."
         },
         "deluxeTwinLakeView": {
             "name": "Mor Menekşe Tipi Odalar (Apron & Gölet Manzaralı Odalar)",
-            "beds": "1 Adet Size Yatak",
+            "beds": "1 Adet King Size Yatak",
             "description": "Apron ve gölet manzaralı çift kişilik odalarımızda havacılığın ruhu ve pistin enerjisi ile doğanın huzuru aynı pencerede yer alıyor.",
             "longDescription": "Göletin huzur veren yüzeyi ve pistin dinamik enerjisi… Bu özel manzaralı odalarda doğanın sessizliği ile havacılığın heyecanı kusursuz bir dengede buluşur. Optimist ve radyo kontrollü teknelerin süzüldüğü gölet, zihninizi dinlendiren eşsiz bir atmosfer sunarken, apron manzarası havacılığın yaşayan ruhunu her an hissetmenizi sağlar. Bu odalar sadece konfor değil ilham, huzur ve aidiyet duygusu sunar."
         },
@@ -76,7 +76,7 @@
         },
         "deluxeFrenchCity": {
             "name": "Vecihi XIV Tipi Odalar (Suit Odalar)",
-            "beds": "1 Adet Size Yatak",
+            "beds": "1 Adet King Size Yatak",
             "description": "Suit odalarımızda geniş alanda lüks konforunu havacılığın prestiji ve modern yaşamın zarafeti ile bir arada yaşayın. Özel tasarım detayları sizi bekliyor.",
             "longDescription": "Gökyüzünde yaşıyormuş hissini veren, ayrıcalıklı özel yaşam alanları, sofistike tasarım ve üstün konfor… AirParkHotel suit odaları, havacılığın prestijini ve modern yaşamın zarafetini bir araya getirir. Aileler, arkadaş grupları ve uzun süreli konaklamalar için ideal olan bu özel alanlar hem iş, hem dinlenme için kusursuz bir ortam sunar. Sessiz doğa, gölet manzarası ve havacılık atmosferinin birleşimi burada geçirdiğiniz zamanı unutulmaz bir deneyime dönüştürür. Bu sadece bir suit değil gökyüzüne komşu, ayrıcalıklı bir yaşam alanıdır."
         }
