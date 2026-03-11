@@ -107,7 +107,7 @@ export function Hero() {
         </CarouselContent>
       </Carousel>
 
-      <div ref={overlayRef} className="absolute inset-0 hero-overlay flex flex-col items-center justify-center text-center px-4">
+      <div ref={overlayRef} className="absolute inset-0  flex flex-col items-center justify-center text-center px-4">
         <p className="text-white/95 text-sm md:text-base font-semibold tracking-[0.3em] uppercase mb-3">
           {t('tagline')}
         </p>

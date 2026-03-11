@@ -303,13 +303,20 @@
         "description": "Hikayemizi, ruhumuzu ve her misafir için yarattığımız eşsiz deneyimi keşfedin.",
         "paragraph1": "AirParkHotel, havacılık kültürü ile rafine konforun buluştuğu çağdaş bir konaklama noktası olarak tasarlandı. Sivrihisar Havacılık Merkezi’nin hemen yanında yer alan otelimiz, pisti çevreleyen dinamizm ile manzaranın dinginliğini bir arada sunan benzersiz bir deneyim sağlar.",
         "paragraph2": "Odalarımız ve süitlerimiz, işlevsel şıklık anlayışıyla oluşturuldu: İhtiyacınız olan her şey, abartıdan uzak, özenle seçilmiş detaylarla bir araya getirildi. Kullandığımız malzemelerden sunduğumuz hizmetlere kadar her adımda kaliteyi, pratikliği ve sıcak bir karşılama hissini ön planda tutuyoruz.",
-        "paragraph3": "İster kısa bir mola için, ister hafta sonu kaçamağı ya da özel bir etkinlik için bizde konaklayın; ekibimiz konaklamanızın zahmetsiz ve unutulmaz geçmesi için çalışır. Sizi AirParkHotel’de ağırlamaktan mutluluk duyarız."
+        "paragraph3": "İster kısa bir mola için, ister hafta sonu kaçamağı ya da özel bir etkinlik için bizde konaklayın; ekibimiz konaklamanızın zahmetsiz ve unutulmaz geçmesi için çalışır. Sizi AirParkHotel’de ağırlamaktan mutluluk duyarız.",
+        "story": {
+            "p1": "AirParkHotel; havacılık dünyasının dinamizmini ve gökyüzünün özgürlüğünü yakından hissedebileceğiniz bir yerde, misafirlerimize sıradan bir konaklamadan çok daha fazlasını sunmak amacıyla kuruldu.",
+            "p2": "Burada sabahlar farklı başlar. Kahvenizi içerken apronda hazırlanan uçakları izleyebilirsiniz. Gün batımında hangarların ve aprondaki uçakların siluetleri gökyüzüyle birleşir. Gece ise pist ışıkları ve yıldızlar eşsiz bir atmosfer oluşturur.",
+            "p3": "AirParkHotel; pilotlar, havacılık meraklıları, iş seyahatindeki misafirler ve sakin bir ortam arayan gezginler için gökyüzüne komşu bir konaklama deneyimi sunar.",
+            "p4": "Spitfire Mk 9, P-51 Mustang ve Focke-Wulf FW-190 gibi havacılık tarihinin efsanevi savaş uçaklarının paylaştığı bir gökyüzünün altında yer alan tek oteldir.",
+            "p5": "Burada gökyüzü sadece yukarıda değildir. Tam yanınızdadır."
+        }
     },
     "opportunitiesPage": {
         "title": "Fırsatlar ve Kampanyalar",
         "subtitle": "Konakla, Keşfet, Deneyimle",
         "description": "Konaklamanızı daha keyifli hale getirmek için hazırladığımız güncel fırsat ve paketleri keşfedin.",
-        "paragraph1": "Hafta sonu kaçamaklarından uzun süreli konaklama avantajlarına, grup rezervasyonlarından etkinlik iş birliklerine kadar farklı ihtiyaçlara yönelik konaklama paketleri ve özel teklifler hazırlıyoruz.",
+        "paragraph1": "Uzun süreli konaklama avantajlarının yanı sıra, başta havacılık olmak üzere çeşitli etkinlik iş birliklerinden, grup rezervasyonlarına kadar farklı ihtiyaçlara yönelik konaklama paketleri ve özel teklifler hazırlıyoruz.",
         "paragraph2": "Kurumsal etkinlik, havacılık organizasyonu veya grup konaklaması planlıyorsanız; size özel paketler, esnek tarih seçenekleri ve avantajlı fiyatlar için bizimle iletişime geçebilirsiniz.",
         "paragraph3": "Güncel fırsat ve kampanyalarımız için rezervasyon ekibimizle iletişime geçebilir veya iletişim kanallarımızı takip edebilirsiniz. Size en uygun seçeneği tasarlamaktan memnuniyet duyarız."
     },
@@ -328,8 +335,10 @@
             "eyebrow": "HAVACILARA ÖZEL",
             "title": "HAVACILARA ÖZEL KONAKLAMA DENEYİMİ",
             "subtitle": "Uçuşa Hazır Konfor, Profesyonellere Özel Atmosfer",
-            "p1": "AirParkHotel, sivil ve profesyonel havacılık faaliyetleri için özel olarak konumlandırılmış benzersiz bir tesistir. Pist ve apronun hemen yanında konaklama ayrıcalığı, pilotlar ve havacılık profesyonelleri için maksimum verim ve konfor sağlar.",
-            "p2": "Uçuş planları arasında dinlenmek, eğitim süreçlerine odaklanmak veya sadece gökyüzüne yakın olmak isteyenler ile uçaklarını hangarlarımıza güvenle park eden pilotlar için AirParkHotel sıradan bir otelden çok daha fazlasıdır."
+            "p1": "AirParkHotel, sivil ve profesyonel havacılık faaliyetleri için özel olarak konumlandırılmış benzersiz bir tesistir. Pist ve apronun hemen yanında konaklama ayrıcalığı, pilotlar ve havacılık profesyonelleri için maksimum verim, konfor ve erişim sağlar.",
+            "p2": "Uçuş planları arasında dinlenmek, eğitim süreçlerine odaklanmak veya sadece gökyüzüne daha yakın olmak isteyenler için AirParkHotel sıradan bir otelden çok daha fazlasıdır.",
+            "p3": "AirParkHotel’i benzersiz kılan bir diğer özellik ise; üzerinden Spitfire Mk9, P-51 Mustang ve Focke-Wulf FW-190 gibi dünyanın en efsanevi tarihi uçaklarının uçtuğu tek otel olmasıdır.",
+            "p4": "Havacılık tutkunları için bu, sadece bir konaklama değil; havacılığın yaşayan tarihine tanıklık etmektir."
         },
         "solar": {
             "eyebrow": "GÜNEŞ ENERJİSİ",

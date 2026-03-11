@@ -54,7 +54,7 @@ export const rooms: Room[] = [
     slug: 'deluxe-french-city',
     key: 'deluxeFrenchCity',
     images: ['/rooms/3/1.jpg', '/rooms/3/2.jpg', '/rooms/3/3.jpg', '/rooms/3/4.jpg', '/rooms/3/5.jpg', '/rooms/3/6.jpg'],
-    size: [45, 60],
+    size: [53, 62],
     capacity: {
       adults: 2,
       children: 0,

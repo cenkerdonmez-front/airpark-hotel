@@ -70,6 +70,8 @@ export function HomeExperienceSection() {
             <div className="space-y-4 text-sm md:text-base leading-relaxed text-brand-primary/90">
               <p>{t('aviation.p1')}</p>
               <p>{t('aviation.p2')}</p>
+              <p>{t('aviation.p3')}</p>
+              <p>{t('aviation.p4')}</p>
             </div>
           </div>
           </AnimateOnScroll>

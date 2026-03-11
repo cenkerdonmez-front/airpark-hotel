@@ -303,13 +303,20 @@
         "description": "Discover our story, our spirit and the one-of-a-kind experience we create for every guest.",
         "paragraph1": "AirParkHotel is designed as a contemporary retreat where aviation culture and refined comfort meet. Located next to Sivrihisar Aviation Center, our hotel offers guests a unique experience surrounded by the dynamism of the runway and the calm of the landscape.",
         "paragraph2": "Our rooms and suites are created with a focus on functional elegance: everything you need, thoughtfully curated, without excess. From the materials we choose to the services we provide, we prioritise quality, practicality and a warm, welcoming atmosphere.",
-        "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirParkHotel."
+        "paragraph3": "Whether you are here for a short stopover, a weekend escape or a special event, our team is dedicated to making your stay effortless and memorable. We look forward to welcoming you to AirParkHotel.",
+        "story": {
+            "p1": "AirParkHotel was founded in a place where you can truly feel the dynamism of the aviation world and the freedom of the sky, with the aim of offering our guests far more than an ordinary stay.",
+            "p2": "Mornings begin differently here. While you drink your coffee, you can watch aircraft being prepared on the apron. At sunset, the silhouettes of the hangars and the aircraft on the apron blend with the colours of the sky. At night, the runway lights and the stars create a unique atmosphere.",
+            "p3": "AirParkHotel offers an accommodation experience right next to the sky for pilots, aviation enthusiasts, business travellers and guests seeking a calm environment.",
+            "p4": "It is the only hotel located beneath a sky shared by legendary warbirds of aviation history such as the Spitfire Mk 9, P-51 Mustang and Focke-Wulf FW-190.",
+            "p5": "Here, the sky is not only above you. It is right beside you."
+        }
     },
     "opportunitiesPage": {
         "title": "Opportunities & Offers",
         "subtitle": "Stay, Discover, Experience",
         "description": "Discover current offers, packages and special opportunities designed to make your stay even more enjoyable.",
-        "paragraph1": "We regularly create stay packages and special offers tailored to different needs: from weekend escapes and long-stay advantages to group reservations and event collaborations.",
+        "paragraph1": "In addition to long-stay advantages, we prepare accommodation packages and special offers tailored to different needs, from various event collaborations—especially in aviation—to group reservations.",
         "paragraph2": "If you are planning a corporate event, aviation organisation or group stay, you can contact us for customised packages, flexible date options and special pricing.",
         "paragraph3": "For our latest opportunities and campaigns, please reach out to our reservations team or follow our communication channels. We will be happy to design the most suitable option for you."
     },
@@ -328,8 +335,10 @@
             "eyebrow": "FOR AVIATORS",
             "title": "A TAILORED STAY FOR AVIATORS",
             "subtitle": "Ready‑for‑Flight Comfort, A Professional Atmosphere",
-            "p1": "AirParkHotel is a distinctive property positioned specifically for civil and professional aviation activities. The privilege of staying right next to the runway and apron offers maximum efficiency and comfort for pilots and aviation professionals.",
-            "p2": "For those who want to rest between flight plans, focus on training processes, or simply be close to the sky, and for pilots who safely park their aircraft in our hangars, AirParkHotel is much more than an ordinary hotel."
+            "p1": "AirParkHotel is a unique property positioned specifically for civil and professional aviation activities. The privilege of staying right next to the runway and apron provides maximum efficiency, comfort and accessibility for pilots and aviation professionals.",
+            "p2": "For those who want to rest between flight plans, focus on training processes or simply be closer to the sky, AirParkHotel is far more than an ordinary hotel.",
+            "p3": "Another feature that makes AirParkHotel truly unique is that it is the only hotel over which some of the world’s most legendary historic aircraft, such as the Spitfire Mk9, P‑51 Mustang and Focke‑Wulf FW‑190, fly.",
+            "p4": "For aviation enthusiasts, this is not just a stay; it is bearing witness to the living history of aviation."
         },
         "solar": {
             "eyebrow": "SUSTAINABLE ENERGY",

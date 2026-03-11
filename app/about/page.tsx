@@ -51,45 +51,11 @@ export default function AboutPage() {
                 {isTr ? 'Gökyüzüne Komşu Bir Rüya' : 'A Dream Next to the Sky'}
               </p>
               <div className="space-y-4 text-sm md:text-base leading-relaxed text-brand-primary/90">
-                {isTr ? (
-                  <>
-                    <p>Her havaalanı bir hikaye anlatır.</p>
-                    <p>Kalkışa hazırlanan uçakların sesi, kuleyle yapılan konuşmalar, pist ışıkları ve her bir uçuşun heyecanı.</p>
-                    <p>Ve bir efsane adamın hayalleri… Atasının yolunda ülkesine ve milletine karşı hissettiği görev bilinci…</p>
-                    <p>AirParkHotel işte bu hikayenin tam içinde doğdu.</p>
-                    <p>
-                      Havacılık dünyasının dinamizmini ve gökyüzünün özgürlüğünü yakından hissedebileceğiniz bir yerde,
-                      misafirlerimize sıradan bir konaklamadan çok daha fazlasını sunmak amacıyla kuruldu.
-                    </p>
-                    <p>
-                      Burada sabahlar farklı başlar. Kahvenizi içerken apronda hazırlanan uçakları izleyebilirsiniz.
-                      Gün batımında hangarların ve aprondaki uçakların siluetleri gökyüzüyle birleşir.
-                      Gece ise pist ışıkları ve yıldızlar eşsiz bir atmosfer oluşturur.
-                    </p>
-                    <p>
-                      AirParkHotel; pilotlar, havacılık meraklıları, iş seyahatindeki misafirler ve sakin bir ortam arayan
-                      gezginler için gökyüzüne komşu bir konaklama deneyimi sunar.
-                    </p>
-                    <p className="font-semibold">Burada gökyüzü sadece yukarıda değildir. Tam yanınızdadır.</p>
-                  </>
-                ) : (
-                  <>
-                    <p>Every airport tells a story.</p>
-                    <p>The sound of aircraft preparing for take-off, radio calls with the tower, runway lights and the excitement of every flight.</p>
-                    <p>And the dreams of a legendary man… A sense of duty towards his country and his people, following in the footsteps of his ancestor…</p>
-                    <p>AirParkHotel was born right at the heart of this story.</p>
-                    <p>
-                      It was founded in a place where you can feel the dynamism of the aviation world and the freedom
-                      of the sky up close — with the aim of offering our guests far more than an ordinary stay.
-                    </p>
-                    <p>
-                      Mornings begin differently here. You can watch aircraft being prepared on the apron while enjoying
-                      your coffee. At sunset, the silhouettes of hangars and aircraft on the apron merge with the sky.
-                      At night, runway lights and stars create an unparalleled atmosphere.
-                    </p>
-                    <p className="font-semibold">Here, the sky is not just above you. It is right beside you.</p>
-                  </>
-                )}
+                <p>{t('story.p1')}</p>
+                <p>{t('story.p2')}</p>
+                <p>{t('story.p3')}</p>
+                <p>{t('story.p4')}</p>
+                <p className="font-semibold">{t('story.p5')}</p>
               </div>
             </div>
           </div>
