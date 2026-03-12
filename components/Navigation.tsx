@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Button } from '@/components/ui/button';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -19,7 +18,10 @@ export function Navigation({ variant = 'white' }: NavigationProps) {
 
   return (
     <>
-      <nav className={`sticky top-0 w-full z-50 ${bgColor} border-b border-brand-primary/10`}>
+      {/* Spacer so fixed navbar doesn't cover page content */}
+      <div className="h-[60px]" />
+
+      <nav className={`fixed top-0 left-0 w-full z-50 ${bgColor} border-b border-brand-primary/10`}>
         <div className="max-w-full mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center space-x-12">
             <Link className="flex items-center" href="/">
