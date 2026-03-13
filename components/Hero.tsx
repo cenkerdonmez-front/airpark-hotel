@@ -94,7 +94,7 @@ export function Hero() {
               <div className="relative h-[85vh]  min-h-[500px] w-full">
                 <Image
                   alt={img.alt}
-                  className="object-cover"
+                  className="object-cover brightness-92"
                   src={img.src}
                   fill
                   priority
